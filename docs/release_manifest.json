@@ -5,7 +5,7 @@
     "evidence_items": 937,
     "impossible": 169
   },
-  "data_license_status": "Author annotation license and third-party source rights need maintainer review",
+  "data_license_status": "Apache-2.0 for project-owned data, annotations and results; third-party evidence excluded and source rights review pending",
   "data_projection": [
     {
       "file": "data/ai_counterevidence_003.json",
@@ -1445,8 +1445,8 @@
     ".gitignore": "8ccb273febab7f30756bd5e2ac7fb8b6e9862202dd491944ca18d676dcd00a42",
     "CITATION.cff": "32a3592693f7fac0fc08ba9f0761b41f414f936a80428cc404e60cea7a67bbe7",
     "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-    "NOTICE": "72480e31e36b7afba615992a83b3d946fac739ae42b5f28bab52c12fb97ffa75",
-    "README.md": "0161f408a7c2738131a3601e819e20f4bbe4925fd116bda575a958799f36ce09",
+    "NOTICE": "59c32f4becb08e63172f6e9b362e881005998ddc5fb16551f2dc00a447c7d5c9",
+    "README.md": "0df6889c938980003377cf96797c5a5673854fac07cfdf5b63e46fe19702d02f",
     "build_dataset.py": "fc9007ba7c7e63c263534a9d28edbe52895660d8294d4ce6f54e6711713ed30b",
     "data/ai_counterevidence_003.json": "ab54c666667ada264faa69b5b723b9241832eb703b004959edf2df845dd93a46",
     "data/ai_evidence_insufficient_003.json": "c5a94e1ebffbfac1e4925af244fd9c85ef95bfb42d9a45abb2a5a79dbb70c0dd",
@@ -1666,12 +1666,12 @@
     "data_control/ctrl_hp_35.json": "83e26e19ba28242917acd936a307595b2fdc0cffe04fa5b7fc71a96a37ebc5ce",
     "data_control/ctrl_hp_36.json": "a3d1a693514762f4ca5ffac2bcfe7ea8bdd8e16dcfc559152c111679298adeb8",
     "docs/CONTRIBUTING.md": "f25ebe780a0dbdeb59bfd3d384cdf8fe149602c5ea7e6cce6f57b27428849964",
-    "docs/DATASET.md": "5c13c7acdb8beb298650f10ceba7c6d2d3103fe707429bac7e1c4f463b901238",
-    "docs/DATA_LICENSE.md": "1e35a6a1b24585ddf2855e344fcde963ec1482c75d6393947d79f06ac244dd29",
+    "docs/DATASET.md": "55760ddacd06828bf652a90b9c34d51b6d9260fae15e525686fd4f3f1617936a",
+    "docs/DATA_LICENSE.md": "1b9d0b70e901d6716fc0fdcb4ab7a50d746a5d0958de4c20f85553f68ce27b6a",
     "docs/EVALUATION.md": "92a3ddb6350aa28c85a86176bae4b15c30cfdfcaa3a63cb57b56b9f272a0606f",
     "docs/LIMITATIONS.md": "cb79585b37b1b09076993d25f9e012908737e2a1866e7dfef6c747dd16d4e081",
-    "docs/RESULTS.md": "4eee5ca150179a5b9fb97413f59565136505a80d6087ec8f7bafefd00a20a0bd",
-    "docs/source_manifest.json": "53a9735251970e9b31a5251563797468537f849fa5df989ab4ee3a3f59da1c78",
+    "docs/RESULTS.md": "d2578fdea4c18b299bd8c2428044c30920ad697182c0396d49b8c84b026fe495",
+    "docs/source_manifest.json": "dda6b11136c7942202fd3c3088a2ca23c26dd8e0008e867d061d40cbd3300247",
     "evaluate.py": "26a61368a6dd2d41c7e7eec3ab827b11a204dc70bde16f00f94f79dd05130ca2",
     "export_inputs.py": "ab23e4661c87d6db3aface823f27fec9a83b2ab626309c7d1359b8f95631b552",
     "prompts/README.md": "30c92072ad3898c240be48ac511ee6ec03bfc7fd3cf1229ef6da5bdece8153cd",
@@ -1691,18 +1691,18 @@
     "tests/test_export_inputs.py": "9de3653a4a5a9931e14ed8c3616bde5dcb36a98a04444eaa349c0ac26b14113a"
   },
   "format_version": 2,
-  "preparation_commit": "42293732ebd584e2db8f01f0cf21f1ad1aca9415",
+  "preparation_commit": "37ae8b816af6f39a2b0ce7668e63bf536f66a342",
   "preparation_has_uncommitted_changes": false,
   "reproduction_archive": {
-    "filename": "impossiblerubrics-reproduction-v1.zip",
+    "filename": "impossiblerubrics-reproduction-v1.1.zip",
     "files": {
       "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "NOTICE": "72480e31e36b7afba615992a83b3d946fac739ae42b5f28bab52c12fb97ffa75",
-      "README.md": "9056fb72038c07c060f65ec4f652ae0db75d7c06fbbb3709815ce8ff5bc89c8b",
+      "NOTICE": "59c32f4becb08e63172f6e9b362e881005998ddc5fb16551f2dc00a447c7d5c9",
+      "README.md": "46fdb2513650e26b9d6514ed8d3a4cea78e508694058ab155e832e3fbe68e358",
       "analysis/census.py": "1988d7e82c8477355440c5ea8fe9335d2335a9d1d9d4fd06cd96420d9f8dccfc",
-      "docs/DATA_LICENSE.md": "1e35a6a1b24585ddf2855e344fcde963ec1482c75d6393947d79f06ac244dd29",
+      "docs/DATA_LICENSE.md": "1b9d0b70e901d6716fc0fdcb4ab7a50d746a5d0958de4c20f85553f68ce27b6a",
       "docs/LIMITATIONS.md": "cb79585b37b1b09076993d25f9e012908737e2a1866e7dfef6c747dd16d4e081",
-      "docs/RESULTS.md": "4eee5ca150179a5b9fb97413f59565136505a80d6087ec8f7bafefd00a20a0bd",
+      "docs/RESULTS.md": "d2578fdea4c18b299bd8c2428044c30920ad697182c0396d49b8c84b026fe495",
       "evaluate.py": "26a61368a6dd2d41c7e7eec3ab827b11a204dc70bde16f00f94f79dd05130ca2",
       "results/census/bridge/gpt54mini_rescore_hard45.json": "76ed649e5f75925eaf55d415262b2f77447fe4e5f9bed9b2e8eb9bc4f44070da",
       "results/census/bridge/gpt55_rescore_hard45.json": "95e352ae88772daba40a54dd8af23bd62e7603e8b72f47044783087833dee8f0",
@@ -1726,7 +1726,7 @@
       "splits/full150.json": "005421fc708fa12d3a6064ae808cd695908d0b615bacbc3bf3fd0fabd88fb17d",
       "splits/hard45.json": "7d5dcae9dbf980aadbbe8b8b71bff5100fa02eec8cd473c25a8fe63ff23af17d"
     },
-    "sha256": "3a216a685b88bc35ccd789db7fed428f81be4f9c63e16e8b4fc14c8c8812c53c"
+    "sha256": "6fbe0ced6b68402cb039f83485484d3e449bcd03c6cfd26b7b9d9025a79bcdd6"
   },
   "source_repository": "eyuansu62/impossible_rubrics",
   "upstream_dataset_snapshot_commit": "a3ff18d48983fd6f2712d5cb7083a3aff2ad12e6"

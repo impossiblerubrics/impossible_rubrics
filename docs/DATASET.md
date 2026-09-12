@@ -76,10 +76,10 @@ The original research repository and its development history remain private.
 Current licensing scope:
 
 1. Source code and original documentation: Apache-2.0.
-2. Author-owned dataset annotations and recorded results: no separate license
-   assigned yet.
+2. Project-owned benchmark data, annotations, synthetic material and recorded
+   results: Apache-2.0, to the extent of the maintainers' rights.
 3. Third-party evidence: source-specific rights review remains pending in
-   [source_manifest.json](source_manifest.json); the code license does not relicense that material.
+   [source_manifest.json](source_manifest.json); the project's Apache-2.0 grant does not relicense that material.
 
 This snapshot intentionally preserves exact task/evidence strings and scientific
 annotations. Its technical validation is not a grant of third-party rights.

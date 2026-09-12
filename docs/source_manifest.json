@@ -4782,7 +4782,7 @@
   {
     "doc_id": "D1_modelcard",
     "publication_date": "2026-03-15",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -6467,7 +6467,7 @@
   {
     "doc_id": "D5",
     "publication_date": "2026-06-01",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -7018,7 +7018,7 @@
   {
     "doc_id": "D6_partial_named_subset",
     "publication_date": "2026",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -7102,7 +7102,7 @@
   {
     "doc_id": "NCEI-TIMESERIES-TYPES",
     "publication_date": "2025-01",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "https://www.ncei.noaa.gov/access/billions/time-series",
     "source_license": null,
     "source_references": [
@@ -7336,7 +7336,7 @@
   {
     "doc_id": "D5_sample_designations",
     "publication_date": "2026-06-02",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC (illustrative placeholders; NOT drawn from real FDA records)",
     "source_license": null,
     "source_references": [
@@ -7630,7 +7630,7 @@
   {
     "doc_id": "D5_partial_example_list",
     "publication_date": "2026-06-01",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -9692,7 +9692,7 @@
   {
     "doc_id": "DOC4",
     "publication_date": "2026-06-01",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -12718,7 +12718,7 @@
   {
     "doc_id": "DOC-1",
     "publication_date": "2025-03-15",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -12739,7 +12739,7 @@
   {
     "doc_id": "DOC-2",
     "publication_date": "2025-03-15",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -13224,7 +13224,7 @@
   {
     "doc_id": "PDG_HIGGS_CONTEXT_NOTE",
     "publication_date": "2026-06-02",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -13666,7 +13666,7 @@
   {
     "doc_id": "D1",
     "publication_date": "2026-06-01",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [
@@ -14023,7 +14023,7 @@
   {
     "doc_id": "GBD_FIGURE",
     "publication_date": "2024",
-    "redistribution_status": "author_material_license_pending",
+    "redistribution_status": "author_owned_material_Apache-2.0",
     "source": "SYNTHETIC",
     "source_license": null,
     "source_references": [

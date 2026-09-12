@@ -2,13 +2,13 @@
 
 ## Download and run
 
-[Download the reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1/impossiblerubrics-reproduction-v1.zip)
+[Download the reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.1/impossiblerubrics-reproduction-v1.1.zip)
 from the repository's release assets. It is separate from the core benchmark
 checkout and includes its own split manifests, scorer and census script.
 Python 3.10+ is sufficient; no dependency installation or model API is needed.
 
 ```sh
-unzip impossiblerubrics-reproduction-v1.zip
+unzip impossiblerubrics-reproduction-v1.1.zip
 cd impossiblerubrics-reproduction
 python analysis/census.py
 ```

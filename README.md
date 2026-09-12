@@ -4,7 +4,7 @@
 
 [Project page](https://impossiblerubrics.github.io/) ·
 [Paper](https://impossiblerubrics.github.io/assets/impossiblerubrics.pdf) ·
-[Reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/tag/reproduction-v1)
+[Reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/tag/reproduction-v1.1)
 
 ImpossibleRubrics tests whether a model-generated rubric rewards an
 evidence-violating answer at least as highly as an honest baseline. The frozen
@@ -65,7 +65,7 @@ interchangeable.
 
 ## Optional: reproduce frozen results
 
-[Download the standalone reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1/impossiblerubrics-reproduction-v1.zip)
+[Download the standalone reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.1/impossiblerubrics-reproduction-v1.1.zip)
 for the historical score files, selection metadata and census script. It runs
 with Python alone and reproduces **21 arms, 2,100 cells and 514 exploits**.
 These are offline checks of stored measurements, not new model runs.
@@ -83,8 +83,9 @@ See [instructions and interpretation](docs/RESULTS.md).
 
 ## License and citation
 
-Apache-2.0 covers **code and original documentation**. Dataset annotations,
-recorded results and third-party evidence have separate rights status; see
+Apache-2.0 covers **code, original documentation, and project-owned benchmark
+data, annotations and experimental results**. Third-party evidence retains its
+original rights and terms and is excluded from that grant; see
 [DATA_LICENSE.md](docs/DATA_LICENSE.md) and the [dataset card](docs/DATASET.md).
 
 Use [CITATION.cff](CITATION.cff), or cite the paper:

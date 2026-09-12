@@ -1,7 +1,10 @@
 ImpossibleRubrics
 Copyright 2026 ImpossibleRubrics contributors.
 
-The Apache-2.0 license applies to source code and original project
-documentation. Dataset inputs, annotations, experiment records, paper content
-and third-party source excerpts are outside that code-license grant unless
-separately licensed. See docs/DATA_LICENSE.md.
+Source code, original project documentation, and benchmark data, annotations,
+synthetic material and experimental results owned by the maintainers are
+licensed under the Apache License, Version 2.0.
+
+This grant covers only rights held by the maintainers. Third-party evidence
+and other incorporated third-party material retain their original rights and
+applicable terms and are not relicensed by this project. See docs/DATA_LICENSE.md.

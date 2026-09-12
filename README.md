@@ -4,7 +4,7 @@
 
 [Project page](https://impossiblerubrics.github.io/) ·
 [Paper](https://impossiblerubrics.github.io/assets/impossiblerubrics.pdf) ·
-[Code and data](https://github.com/impossiblerubrics/benchmark)
+[Code and data](https://github.com/impossiblerubrics/impossible_rubrics)
 
 ImpossibleRubrics tests whether a model-generated rubric rewards an
 evidence-violating answer at least as highly as an honest baseline. The frozen
@@ -21,8 +21,8 @@ Python 3.10 or newer is required. Validation, input export and result scoring
 run offline without a model API key. Installing dependencies may need network access.
 
 ```sh
-git clone https://github.com/impossiblerubrics/benchmark.git
-cd benchmark
+git clone https://github.com/impossiblerubrics/impossible_rubrics.git
+cd impossible_rubrics
 python -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt

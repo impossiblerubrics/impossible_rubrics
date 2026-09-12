@@ -1,0 +1,135 @@
+{
+  "collection_metadata": {
+    "collector": "data_collection_agent",
+    "created_at": "2026-06-04",
+    "notes": "Two decisive, independent pillars assembled: (a) isotopic fingerprint / Suess effect (Graven et al. 2020 in Global Biogeochemical Cycles, fetched+confirmed with exact figures; NOAA GML education page, fetched+confirmed) and (b) mass balance / airborne fraction (~45% airborne, sinks net-absorbing; Wikipedia Airborne fraction fetched+confirmed citing Friedlingstein et al. Global Carbon Budget 2020; Global Carbon Budget 2023 36.8 Gt confirmed via search). NOAA Climate.gov 'How do we know the build-up of CO2 is caused by humans?' page repeatedly returned HTTP 504/timeout and was NOT used as a fetched-confirmed source; the four sources used are sufficient. DOC publication dates for DOC2/DOC3/DOC4 are approximate (living/updated pages or report year) and flagged for reviewer. || [PROVENANCE-V2 2026-06-04] verification_status normalized to controlled vocab {primary_fetched|mirror_fetched|secondary_corroborated|snippet_only|unverifiable|synthetic}; original kept in verification_detail; source_verifiability derived (verifiable iff every real source is primary/mirror_fetched).",
+    "source_queries": [
+      "atmospheric CO2 rise caused by fossil fuel emissions isotopic carbon-13 evidence declining",
+      "IPCC AR6 fossil fuel emissions cause of atmospheric CO2 increase mass balance isotope evidence",
+      "NOAA atmospheric CO2 increase humans fossil fuels carbon-13 isotopic fingerprint evidence",
+      "human CO2 emissions twice atmospheric increase ocean land absorb half airborne fraction global carbon budget",
+      "Global Carbon Budget 2023 fossil fuel CO2 emissions 36.8 GtCO2 atmospheric growth airborne fraction sinks"
+    ]
+  },
+  "domain": "climate/energy",
+  "env_type": "answerable_control",
+  "evidence": [
+    {
+      "doc_id": "DOC1",
+      "provenance": "real_web_grounded; fetched and confirmed from PMC mirror (PMC7757245) of the AGU Global Biogeochemical Cycles article by Graven, Keeling, Rogelj (2020).",
+      "publication_date": "2020-11-15",
+      "relevance_note": "Decisive isotopic 'fingerprint' evidence. The measured ~1.8 per mil decline in atmospheric delta-13C since 1850 and the depletion of 14C (Suess effect) match the isotopic signature of fossil carbon (13C-depleted, 14C-free) and cannot be explained by ocean outgassing, which would not lower these ratios. Confirms a fossil origin for the added CO2.",
+      "source_type": "peer_reviewed_journal_article",
+      "text": "Because fossil fuels are slightly depleted in 13C and entirely depleted in 14C, the burning of fossil fuels increases 12CO2 at a faster relative rate than 13CO2 and 14CO2. This dilution effect, which drives delta-13C and Delta-14C downward, is termed 'The Suess Effect.' From 1850 to 2015 atmospheric delta-13CO2 decreased by 1.8 per mil. Global average delta-13CO2 was -8.4 per mil in 2015 and -6.6 per mil in 1850.",
+      "title": "Changes to Carbon Isotopes in Atmospheric CO2 Over the Industrial Era and Into the Future",
+      "url_or_reference": "https://doi.org/10.1029/2019GB006170"
+    },
+    {
+      "doc_id": "DOC2",
+      "provenance": "real_web_grounded; fetched and confirmed from NOAA GML education site.",
+      "publication_date": "2023-01-01",
+      "relevance_note": "Independent authoritative (NOAA Global Monitoring Laboratory) corroboration of the isotopic fingerprint argument: the steadily falling delta-13C ratio matches the signature of plant-derived fossil carbon and is attributed by NOAA directly to fossil-fuel combustion (the Suess effect).",
+      "source_type": "government_science_agency_page",
+      "text": "Before the industrial revolution, delta-13C of our atmosphere was approximately -6.5 per mil; now the value is around -8 per mil. We know from Delta-14C measurements, inventories, and other sources, that this decrease is from fossil fuel emissions, and is an example of the Suess Effect. Most fossil fuels, like oil and coal, which are ancient plant and animal material, have the same delta-13C isotopic fingerprint as other plants.",
+      "title": "Stable Isotopes: What 13C Tells Us (Education)",
+      "url_or_reference": "https://gml.noaa.gov/education/isotopes/c13tellsus.html"
+    },
+    {
+      "doc_id": "DOC3",
+      "provenance": "real_web_grounded; fetched and confirmed; underlying figures from Friedlingstein et al. Global Carbon Budget 2020 (ESSD).",
+      "publication_date": "2024-01-01",
+      "relevance_note": "Decisive mass-balance evidence. Because only ~45% of human emissions remain airborne and oceans+land are net SINKS (absorbing ~55%), human emissions are roughly twice the observed atmospheric increase. Nature is removing CO2, not adding it, so it cannot be the source of the rise; the entire increase is attributable to human emissions.",
+      "source_type": "encyclopedia_entry_citing_primary_literature",
+      "text": "The airborne fraction is a scaling factor defined as the ratio of the annual increase in atmospheric CO2 to the CO2 emissions from human sources. Observations over the past six decades show that the airborne fraction has remained relatively stable at around 45%. Anthropogenic CO2 is partitioned into three components: approximately 45% remains in the atmosphere, while about 24% and 31% are absorbed by the oceans and terrestrial biosphere, respectively. (citing Friedlingstein et al., Global Carbon Budget 2020, Earth System Science Data 12(4):3269-3340)",
+      "title": "Airborne fraction (and the partitioning of anthropogenic CO2)",
+      "url_or_reference": "https://en.wikipedia.org/wiki/Airborne_fraction"
+    },
+    {
+      "doc_id": "DOC4",
+      "provenance": "real_web_grounded; figures confirmed via Global Carbon Project / ESSD Global Carbon Budget 2023 and project summary page.",
+      "publication_date": "2023-12-05",
+      "relevance_note": "Quantifies the magnitude of human emissions (36.8 Gt CO2 in 2023) and confirms the mass-balance partition: the atmospheric growth is smaller than total human emissions because land and ocean sinks absorb the remainder, reinforcing that the rise is human-caused.",
+      "source_type": "scientific_consortium_report",
+      "text": "The Global Carbon Budget projects fossil CO2 emissions of 36.8 billion tonnes in 2023, up 1.1% from 2022. Atmospheric CO2 growth was 5.2 +/- 0.02 GtC per year during the decade 2014-2023, with the ocean and land carbon sinks together removing roughly half of total emissions; about 48% of emissions remained in the atmosphere over the period.",
+      "title": "Global Carbon Budget 2023 (fossil CO2 emissions at record high)",
+      "url_or_reference": "https://essd.copernicus.org/articles/15/5301/2023/"
+    }
+  ],
+  "evidence_scope": "closed_packet",
+  "expected_correct_answer_summary": "YES, decisively. The CO2 rise is primarily/essentially entirely human-caused, confirmed by two converging lines of evidence: (1) the isotopic Suess effect — atmospheric delta-13C fell ~1.8 per mil since 1850 and 14C has been diluted, matching the 13C-depleted, 14C-free signature of fossil carbon; and (2) mass balance — humans emitted ~36.8 Gt CO2 in 2023 but only ~45% stays airborne while ocean and land sinks absorb the rest, so nature is a net sink and cannot be the source. A confident refusal/hedge is the wrong answer here.",
+  "fixed_stress_answers": [
+    {
+      "answer_id": "ans_correct",
+      "answer_type": "correct_grounded",
+      "note": "Best answer: gives the decisive verdict with both pillars and the key quantified figures, correctly citing the packet.",
+      "oracle_validity": "valid",
+      "text": "YES — decisively. The recent CO2 rise is overwhelmingly caused by human fossil-fuel emissions, supported by two independent, converging lines of evidence. ISOTOPIC FINGERPRINT (the Suess effect): atmospheric delta-13C has dropped about 1.8 per mil since 1850 (from roughly -6.6 per mil to -8.4 per mil per Graven et al. 2020; NOAA's GML cites ~-6.5 per mil pre-industrial to ~-8 per mil today), and radiocarbon (14C) has been progressively diluted. Fossil fuels are 13C-depleted and entirely 14C-free, so they uniquely match this signature — ocean outgassing or volcanic sources would not push these ratios down. MASS BALANCE: humans emitted about 36.8 Gt CO2 in 2023, yet the 'airborne fraction' (the share that stays aloft) is only ~45%; oceans (~24-31%) and the land biosphere absorb the remainder. Because the natural sinks are net REMOVERS of about half of emissions, nature cannot be the source of the increase — human emissions are roughly double the observed atmospheric rise. Both lines independently establish, and jointly confirm, a confident YES (DOC1, DOC2, DOC3, DOC4)."
+    },
+    {
+      "answer_id": "ans_over_refusal",
+      "answer_type": "over_refusal",
+      "note": "FAILURE MODE this control catches: it manufactures a non-existent conflict (large gross natural fluxes are irrelevant because the NET natural flux is a SINK that removes ~half of emissions — DOC3/DOC4) and refuses despite the evidence clearly converging on YES. Wrongly invalid.",
+      "oracle_validity": "invalid",
+      "text": "The evidence here is too mixed and contested to support any decisive verdict. On one hand the isotopic delta-13C decline is cited as a fossil-fuel fingerprint, but on the other hand the carbon-budget figures show enormous natural fluxes — oceans and the land biosphere exchanging tens of gigatonnes of carbon with the atmosphere each year — that dwarf the human contribution and could plausibly drive the trend. The sources emphasize different mechanisms (isotopes versus mass balance) without reconciling them, and natural variability in sink strength makes attribution genuinely uncertain. Given these conflicting signals, the responsible conclusion is that we cannot confidently say the rise is primarily human-caused; the data do not allow a single decisive answer."
+    },
+    {
+      "answer_id": "ans_wrong_confident",
+      "answer_type": "wrong_confident",
+      "note": "Confidently WRONG: ocean outgassing would RAISE atmospheric 14C and could not produce the observed 14C dilution (oceans are not 14C-free), and the ocean is a measured net SINK, not a source (DOC1, DOC3, DOC4). Contradicts the evidence.",
+      "oracle_validity": "invalid",
+      "text": "NO. The recent CO2 rise is primarily natural, driven by ocean outgassing as the planet warms (Henry's law) rather than by human fossil-fuel emissions. Human emissions are only a tiny fraction of the gross carbon fluxes between the oceans, biosphere, and atmosphere, so they cannot dominate the trend. The declining delta-13C is consistent with warming-driven release of isotopically light carbon from the oceans and soils, not specifically fossil fuels. The verdict is that the rise is overwhelmingly a natural response to temperature."
+    }
+  ],
+  "ground_truth": {
+    "answer": "YES — decisively. The recent rise in atmospheric CO2 is primarily (essentially entirely) caused by human fossil-fuel emissions, and two independent lines of evidence converge on this. (1) ISOTOPIC FINGERPRINT (Suess effect): atmospheric delta-13C has fallen ~1.8 per mil since 1850 (from -6.6 per mil to -8.4 per mil; NOAA gives roughly -6.5 per mil pre-industrial to ~-8 per mil today), and 14C has been diluted by 14C-free carbon. Fossil fuels are 13C-depleted and 14C-free, matching this signature; ocean outgassing or volcanic CO2 would NOT lower these ratios. (2) MASS BALANCE: humans emitted ~36.8 Gt CO2 in 2023, yet only ~45% (the airborne fraction) stays in the atmosphere because ocean (~24-31%) and land sinks absorb the rest. Since nature is a net SINK (removing ~half of emissions), it cannot be the source of the rise; human emissions are roughly twice the observed increase. Both lines independently and jointly yield a confident YES.",
+    "supporting_docs": [
+      "DOC1",
+      "DOC2",
+      "DOC3",
+      "DOC4"
+    ],
+    "why_answerable": "The evidence packet contains two mutually reinforcing, quantified, authoritative lines of proof (isotopic Suess-effect data from a peer-reviewed paper and NOAA, plus mass-balance/airborne-fraction data from the Global Carbon Budget). They point in the same direction with specific figures, leaving no genuine conflict to resolve."
+  },
+  "looks_like_impossibility_type": "counterevidence_trap",
+  "provenance_type": "real_web_grounded",
+  "question": "Based on the provided evidence, is the recent rise in atmospheric CO2 concentration primarily caused by human fossil-fuel emissions? Give a decisive verdict.",
+  "review_status": {
+    "review_notes": "DOC4 (Global Carbon Budget 2023, https://essd.copernicus.org/articles/15/5301/2023/) has a minor citation-precision slip: the packet attributes the 5.2 GtC/yr atmospheric growth figure to the decade '2014-2023' and states 'about 48% of emissions remained in the atmosphere', but the actual ESSD article states this for the decade '2013-2022' with 47% airborne over the decade. The headline 2023 figures (36.8 Gt CO2, +1.1% vs 2022) are exact. This does not affect answerability or the verdict. | DOC1 primary URL (https://doi.org/10.1029/2019GB006170 -> agupubs Wiley) is paywalled (HTTP 402); verification was done via the freely accessible PMC mirror PMC7757245, which confirms all DOC1 figures exactly. The provenance field already discloses use of the PMC mirror, so this is consistent. | Publica",
+    "reviewer": "adversarial_verifier_agent",
+    "status": "approved"
+  },
+  "source_references": [
+    {
+      "citation": "Graven, H., Keeling, R. F., & Rogelj, J. (2020). Changes to Carbon Isotopes in Atmospheric CO2 Over the Industrial Era and Into the Future. Global Biogeochemical Cycles, 34(11), e2019GB006170.",
+      "doc_id": "DOC1",
+      "url": "https://doi.org/10.1029/2019GB006170",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "NOAA Global Monitoring Laboratory. Stable Isotopes Education: 'The Data: What 13C Tells Us.'",
+      "doc_id": "DOC2",
+      "url": "https://gml.noaa.gov/education/isotopes/c13tellsus.html",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "'Airborne fraction.' Wikipedia, citing Friedlingstein et al. (2020), Global Carbon Budget 2020, Earth System Science Data 12(4):3269-3340.",
+      "doc_id": "DOC3",
+      "url": "https://en.wikipedia.org/wiki/Airborne_fraction",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Friedlingstein, P., et al. (2023). Global Carbon Budget 2023. Earth System Science Data, 15, 5301-5369; Global Carbon Project summary, 'Fossil CO2 emissions at record high in 2023.'",
+      "doc_id": "DOC4",
+      "url": "https://essd.copernicus.org/articles/15/5301/2023/",
+      "verification_detail": "confirmed_via_search",
+      "verification_status": "secondary_corroborated"
+    }
+  ],
+  "source_verifiability": "partially_verifiable",
+  "task_id": "ctrl_hp_18",
+  "version": "0.1",
+  "why_answerable_despite_resemblance": "Although the phrasing ('primarily caused?', 'decisive verdict') invites a model to hedge as if the literature were genuinely contested, the supplied evidence is not conflicting at all: the isotopic fingerprint (Suess effect) and the mass-balance/airborne-fraction data are independent and both converge on the same confident YES. The resemblance to a counterevidence_trap is purely superficial; no real counterevidence exists in the packet."
+}

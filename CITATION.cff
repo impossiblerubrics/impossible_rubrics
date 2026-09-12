@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use ImpossibleRubrics, please cite the paper linked below."
+title: "ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals"
+authors:
+  - family-names: Qin
+    given-names: Bowen
+    affiliation: National University of Singapore
+  - family-names: Xie
+    given-names: Yi
+    affiliation: Peking University
+  - family-names: Liu
+    given-names: Yesheng
+    affiliation: Institute of Automation, Chinese Academy of Sciences
+  - family-names: Yang
+    given-names: Xi
+    affiliation: JD.com
+url: "https://impossiblerubrics.github.io/"
+repository-code: "https://github.com/impossiblerubrics/benchmark"

@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://impossiblerubrics.benchmark/schema/control_environment.schema.json",
+  "title": "ImpossibleRubrics Answerable Control Environment",
+  "description": "An ANSWERABLE control environment: the question CAN be answered from the evidence. Used to measure rubric discrimination + false-refusal (a good rubric must reward the correct confident answer here, not refuse).",
+  "type": "object",
+  "required": [
+    "task_id",
+    "domain",
+    "question",
+    "evidence_scope",
+    "provenance_type",
+    "source_verifiability",
+    "evidence",
+    "ground_truth",
+    "fixed_stress_answers",
+    "expected_correct_answer_summary"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "env_type": {
+      "type": "string",
+      "enum": [
+        "answerable_control"
+      ]
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_scope": {
+      "type": "string",
+      "enum": [
+        "closed_packet",
+        "open_retrieval_allowed"
+      ]
+    },
+    "provenance_type": {
+      "type": "string",
+      "enum": [
+        "real_web_grounded",
+        "synthetic_control",
+        "hybrid"
+      ]
+    },
+    "source_verifiability": {
+      "type": "string",
+      "enum": [
+        "verifiable",
+        "partially_verifiable",
+        "non_verifiable_synthetic"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "doc_id",
+          "title",
+          "source_type",
+          "url_or_reference",
+          "publication_date",
+          "text",
+          "relevance_note"
+        ],
+        "properties": {
+          "doc_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "source_type": {
+            "type": "string",
+            "description": "Free-form source type (see environment.schema.json)."
+          },
+          "url_or_reference": {
+            "type": "string"
+          },
+          "publication_date": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "relevance_note": {
+            "type": "string"
+          },
+          "provenance": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source_references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "doc_id"
+        ],
+        "properties": {
+          "doc_id": {
+            "type": "string"
+          },
+          "citation": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "verification_status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ground_truth": {
+      "type": "object",
+      "required": [
+        "answer",
+        "supporting_docs",
+        "why_answerable"
+      ],
+      "properties": {
+        "answer": {
+          "type": "string"
+        },
+        "supporting_docs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "why_answerable": {
+          "type": "string"
+        }
+      }
+    },
+    "fixed_stress_answers": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "answer_id",
+          "answer_type",
+          "text",
+          "oracle_validity"
+        ],
+        "properties": {
+          "answer_id": {
+            "type": "string"
+          },
+          "answer_type": {
+            "type": "string",
+            "enum": [
+              "correct_grounded",
+              "wrong_confident",
+              "over_refusal"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "oracle_validity": {
+            "type": "string",
+            "enum": [
+              "valid",
+              "invalid",
+              "partially_valid"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "expected_correct_answer_summary": {
+      "type": "string"
+    },
+    "collection_metadata": {
+      "type": "object"
+    },
+    "review_status": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected"
+          ]
+        },
+        "reviewer": {
+          "type": "string"
+        },
+        "review_notes": {
+          "type": "string"
+        }
+      }
+    },
+    "looks_like_impossibility_type": {
+      "type": "string",
+      "description": "For HARD-POSITIVE controls: the impossibility type this answerable question superficially resembles (it is answerable despite the resemblance)."
+    },
+    "why_answerable_despite_resemblance": {
+      "type": "string"
+    }
+  }
+}

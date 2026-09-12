@@ -1,0 +1,1727 @@
+{
+  "code_license_status": "Apache-2.0 for source code and original documentation",
+  "counts": {
+    "controls": 48,
+    "evidence_items": 937,
+    "impossible": 169
+  },
+  "data_license_status": "Author annotation license and third-party source rights need maintainer review",
+  "data_projection": [
+    {
+      "file": "data/ai_counterevidence_003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/ai_evidence_insufficient_003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/ai_exhaustiveness_002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/ai_missing_support_001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/ai_missing_support_003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/ai_objective_conflict_002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_counterevidence_001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_counterevidence_005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_evidence_insufficient_001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_evidence_insufficient_002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_exhaustiveness_001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_exhaustiveness_003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_false_premise_003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_missing_support_002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_missing_support_005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/bio_objective_conflict_001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/climate_false_premise_002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m006.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m007.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m009.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m010.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m011.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m012.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m013.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m014.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m015.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m016.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m017.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m018.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m019.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/counterevidence_m020.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/crime_false_premise_001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/econ_false_premise_004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/edu_counterevidence_004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/edu_counterevidence_007.json",
+      "moved_fields": [
+        "adaptive_stress",
+        "adaptive_stress_grounded"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m006.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m007.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m009.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m010.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m011.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m012.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m013.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m014.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m015.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m016.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m017.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m018.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m019.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/evid_insuff_m020.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m006.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m007.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m009.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m010.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m011.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m012.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m013.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m014.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m015.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m016.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m017.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m018.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m019.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/exhaustiveness_m020.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m006.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m007.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m009.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m010.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m011.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": [
+        "oracle_certificate_redundant_placeholder"
+      ]
+    },
+    {
+      "file": "data/false_premise_m012.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m013.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m014.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m015.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m016.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m017.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m018.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m019.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/false_premise_m020.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/finance_missing_support_004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/finance_objective_conflict_004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/health_objective_conflict_005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/legal_objective_conflict_003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/med_counterevidence_006.json",
+      "moved_fields": [
+        "adaptive_stress",
+        "adaptive_stress_grounded"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/med_evidence_insufficient_008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/med_objective_conflict_006.json",
+      "moved_fields": [
+        "adaptive_stress",
+        "adaptive_stress_grounded"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": [
+        "oracle_certificate_note"
+      ]
+    },
+    {
+      "file": "data/missing_support_m005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m006.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m007.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m009.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m010.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m011.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m012.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m013.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m014.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m015.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m016.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m017.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m018.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m019.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/missing_support_m020.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/nutrition_counterevidence_002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/nutrition_evidence_insufficient_004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m001.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m002.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m003.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m006.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m007.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m009.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m010.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m011.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m012.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m013.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m014.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m015.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m016.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m017.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m018.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m019.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/objective_conflict_m020.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/policy_evidence_insufficient_005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/policy_exhaustiveness_004.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/security_exhaustiveness_005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_007.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_008.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_009.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_010.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_011.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_012.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_013.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_014.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_015.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_016.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_017.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_018.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_019.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_020.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/stats_objective_conflict_021.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data/tech_false_premise_005.json",
+      "moved_fields": [
+        "adaptive_stress"
+      ],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_001.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_002.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_003.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_004.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_005.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_006.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_007.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_008.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_009.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_010.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_011.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_012.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_01.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_02.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_03.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_04.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_05.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_06.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_07.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_08.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_09.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_10.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_11.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_12.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_13.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_14.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_15.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_16.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_17.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_18.json",
+      "moved_fields": [],
+      "removed_empty_fields": [
+        "fixed_stress_answers[].text_note_unused"
+      ]
+    },
+    {
+      "file": "data_control/ctrl_hp_19.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_20.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_21.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_22.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_23.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_24.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_25.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_26.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_27.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_28.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_29.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_30.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_31.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_32.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_33.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_34.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_35.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    },
+    {
+      "file": "data_control/ctrl_hp_36.json",
+      "moved_fields": [],
+      "removed_empty_fields": []
+    }
+  ],
+  "files": {
+    ".github/workflows/validate.yml": "67c9071429e8cf4646f510c6beb1ac685b9071aede7970352dcf01425a9ee43c",
+    ".gitignore": "a1308e06036ac8f1d2a2f66d45974c78ed56d10cd30b7c735d5947bba2a8d0f8",
+    "CITATION.cff": "9f9348a680ec398bb7daeabaa1e9c9eecae9f739a36faf458a0786ad12749efd",
+    "CONTRIBUTING.md": "c89dce70cec2c088149e0ec996e24b842bdf9fedf00b8310d0a37224eab17a61",
+    "DATA_LICENSE.md": "9b6897fcfccce265a2e25af3ee0b78c4d14a31123708b7bf55b8dfc01fc94184",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "1bf3022f679cd501fecf0b24975f5c3796fdf6420970b6ef5d8f7fc357078a5d",
+    "README.md": "097cc7410414a793a0013959cd1d064d0980ddf39eb156e8a7c2d760ad6a9e74",
+    "RELEASE_STATUS.md": "8db57ad4e3d864d42c242989242e20771f07b6248d10f2e83589a19bd67a92ba",
+    "analysis/census.py": "1988d7e82c8477355440c5ea8fe9335d2335a9d1d9d4fd06cd96420d9f8dccfc",
+    "build_dataset.py": "fc9007ba7c7e63c263534a9d28edbe52895660d8294d4ce6f54e6711713ed30b",
+    "controls.json": "73c8f1a8dddc415d39fe0fde2de22b79e62eea8907403d6542c0309ca3135778",
+    "controls.jsonl": "e295cd06121cff88912b1085bdfa1ff208030bfb3c9097b38dde90f2cf3e53c9",
+    "data/ai_counterevidence_003.json": "ab54c666667ada264faa69b5b723b9241832eb703b004959edf2df845dd93a46",
+    "data/ai_evidence_insufficient_003.json": "c5a94e1ebffbfac1e4925af244fd9c85ef95bfb42d9a45abb2a5a79dbb70c0dd",
+    "data/ai_exhaustiveness_002.json": "9b85c53b084a0532bfd817ca86a1ac6072e968077bdce1f9ffc9c7bd1e44bd86",
+    "data/ai_missing_support_001.json": "c783f146dc322401192008f16e068345e69064e14f740de48e15fe8738c021ca",
+    "data/ai_missing_support_003.json": "51ad90aeda196516a7e0ff6e02d53de3d769f1668cf4bfdc198b5e5b28080586",
+    "data/ai_objective_conflict_002.json": "b80ff48411eef0740ecd9b1bd34ea79288a52364d5912c2f4027da46101e7772",
+    "data/bio_counterevidence_001.json": "7aaddc509f3c528987fa3236e1af7e9c156c57d203806431084d242d2be42923",
+    "data/bio_counterevidence_005.json": "cc941ed8b482a986c0d4646bec2e48e0b5e84c3ad89da7a7356321842ca71dc0",
+    "data/bio_evidence_insufficient_001.json": "12ec1b29452a2d58caa84949a6b26312e2698c776640764a6682d6bd927959e1",
+    "data/bio_evidence_insufficient_002.json": "76ce5d2ecf4b93a95fbeec41b71b6ed3069d3c4e26b50ba614bdafb76f600203",
+    "data/bio_exhaustiveness_001.json": "037e51b67baa1f83613f48a6f2361a8711b65a4d83a1662e6b16cfb960c5fce1",
+    "data/bio_exhaustiveness_003.json": "05fa24214941bceb6bc4de48a2d3053d6e05ac6998d9041a076cb4e1634db72d",
+    "data/bio_false_premise_003.json": "66fb1c442a7c0b32c85780f3c1528cd257701884e002587b28b6eeeb2fa3a3db",
+    "data/bio_missing_support_002.json": "ed00ddb169faf78e49b2eda0af2653d9a431b02835af8285471331cd1f2f51f8",
+    "data/bio_missing_support_005.json": "bba73f0b327b590dbd85b1e6eb311efdba0fb667767ce078932cfccb95295309",
+    "data/bio_objective_conflict_001.json": "83c0ba1cb728feff39e8746cd41fab96ad36de2d8c64c7fc82f4255cc186d508",
+    "data/climate_false_premise_002.json": "c4e56f961bfd8ecd08b44063a8bcca7526459005c48e0daab9393d2190db403a",
+    "data/counterevidence_m001.json": "5d23af34e821209dea7a9b84b06d7110df099a51bf6b8bbc166028fb5b971a0a",
+    "data/counterevidence_m002.json": "44c0a96078422c4a0b93c96143afb405c09abfc8b78e6b3a5371ce09b9e889c2",
+    "data/counterevidence_m003.json": "b5a6aad0fdec557c3cffdbf71d8805231bce44a052de29d708f320b3640f8b34",
+    "data/counterevidence_m004.json": "cda510deb5f9f7d3385f71f13a5e4af470fd9d156b32fccc5367f312215699f9",
+    "data/counterevidence_m005.json": "dca72ce2dff1766eac81b82f2ff60ef987901d4f5861ddc99fb407614c463254",
+    "data/counterevidence_m006.json": "035407525a060b4a08859d4ff907d38ab0689cf56eaa5760f5103e4c439d34fc",
+    "data/counterevidence_m007.json": "05448082b2f572ddd98addb4ebd399554155fb3c6ddf23e285531bc6e3c0ed33",
+    "data/counterevidence_m008.json": "6a431240be7618dfb6e7eca6d6a23c372d193673f4b274834fea5405372be1c5",
+    "data/counterevidence_m009.json": "58cb8792aaf997e4fe2f512306589d8b8adffa55b1d67fc5fb6d036d9c9b1bc0",
+    "data/counterevidence_m010.json": "6b3b09d72b293ddb915b8b1f3a068cffbcf5a85214adf160ae242aa8eeaa2e55",
+    "data/counterevidence_m011.json": "348c0e5d9a58e589bd3f2b2883283e508b5420094d1eb15169ff00077fa926b1",
+    "data/counterevidence_m012.json": "5aacc6f89d1e08a5a04fbf128e9dcc3ae41b5757e2b4a5b3707d3dc3480db5e6",
+    "data/counterevidence_m013.json": "822f4d12244ed328fee2db26bfa6ebd813dca9e71b934a4838963bc2b161940d",
+    "data/counterevidence_m014.json": "0627fc937ce73f22a53234fc80957520a36196063f7034f9249464cf91165ea5",
+    "data/counterevidence_m015.json": "86bb13af1b7bf4359c23f0406f5d1968fd4a599c0521bbb2ea31475d3bbc9780",
+    "data/counterevidence_m016.json": "d7d6da9e9d3f3fa3eb6c083c0edb8c16f826214dcbdafc4602055ed89bb187eb",
+    "data/counterevidence_m017.json": "ee67299ac0f5ecfd504e611aef6a40231ccb92e1762adeea8203097eee36122a",
+    "data/counterevidence_m018.json": "ab773447afdf42389d858b5c3191237e72d859cbf9e991171de6b95da62e9157",
+    "data/counterevidence_m019.json": "7bf542047a3cf080997939493b87e380a5538566042c185a535a4b5594143909",
+    "data/counterevidence_m020.json": "40dce1ea4b0701db2609faea73481ee582f3db505cb792f7e900dea473449f86",
+    "data/crime_false_premise_001.json": "7bfff04d7ef269e07dd2663e9df72618bfb374b8724c1025f31593f9dd7596d8",
+    "data/econ_false_premise_004.json": "cfb868a127e562f95280710f26a56162b079b4290e2b6d9f8827754891583996",
+    "data/edu_counterevidence_004.json": "295bd3a23e3a1a8a3c4c6765722b6737755a20fb37bb2d840dda9c944a676029",
+    "data/edu_counterevidence_007.json": "831987f3037fe02657078da4f25cb03469be21a25f7e88bc44d8913fc837360a",
+    "data/evid_insuff_m001.json": "a896d8945a4df50fd9a4f0124efa022941b233d84ac1716390118e8310e7a569",
+    "data/evid_insuff_m002.json": "f0ea17aece283ccb80b88f61cb19d260aea7dbfbf7baec19124402eed5149f3d",
+    "data/evid_insuff_m003.json": "b621fd40686acfa8699fa2b7888249215de9f5d774f6fdb278660145e87c64ed",
+    "data/evid_insuff_m004.json": "5cac916f18944da1877b1efda85517386951297f9be12f9e9743fcb096b1dfd3",
+    "data/evid_insuff_m005.json": "6f297ddf537d95c089962c13e862cdb4228a8b8cdd950fbbf12f990316e6f67a",
+    "data/evid_insuff_m006.json": "3d14ee65d92eccbe0465cb5525db390191870b236fd6b4037a2e26f75ed5a04f",
+    "data/evid_insuff_m007.json": "e8b0104f641895ce4a86c77b97b43a78b3cfd8f1e1a472223adce4f250bd599d",
+    "data/evid_insuff_m008.json": "e5daea013699003ba6bd1c5410bbe2d1f51f5c84dcf705748e6aad8337386eb8",
+    "data/evid_insuff_m009.json": "d0ff25e76237ef48cc8cc13e9fbba6802f88ae8feff4b348b08f255692b37142",
+    "data/evid_insuff_m010.json": "9a4d99449242f7ca0ed296c4880cd059ed1ba12f6870368d4054627f4dbfb8d2",
+    "data/evid_insuff_m011.json": "6f6d4e594ad11b4a7484e0a6c75e2fa2e97556583671df6c4aa4f870b3a630a5",
+    "data/evid_insuff_m012.json": "d0b526faf27bc61841420e7752bc1edfd6ad58b6b8eb1bb407c46ab7f7711694",
+    "data/evid_insuff_m013.json": "5f604234be1fb0996d1f7ee1d1c9ee1e5370ff589086ab3b2ad4919ca6249797",
+    "data/evid_insuff_m014.json": "7466dbabcc31a2613844981fe73e387fa0b75876b0d46bac57c8087872bbadda",
+    "data/evid_insuff_m015.json": "ce010d861982e97d222f452386943f6aae9da7a78cb16bd40fe34f53cc84e969",
+    "data/evid_insuff_m016.json": "1d2d6aa31f1d8926374ff53b8abf87de2e6ad4ab7480d3a820c7c3cfbe259512",
+    "data/evid_insuff_m017.json": "4ba33db8620a4c8ff3333aa5d4563371618702cf55857fc9a7c9ac226aa9e852",
+    "data/evid_insuff_m018.json": "3fa05476a3480490682e0ad449fe3b1979e2a64c3393a33c87cc3d81f93237db",
+    "data/evid_insuff_m019.json": "0f8caa9d630a422e610f27fef3233cf675b9a96c4e20c489a393a0d338307b04",
+    "data/evid_insuff_m020.json": "7ad5d4aa4c68a2e3ea4b11cbe648533495972f0ff8192cd45b2ec5437cdb9bd1",
+    "data/exhaustiveness_m001.json": "2efba882205d9ffe6189064a9e7e898b189a5c909c339c88058e4d9a4197c309",
+    "data/exhaustiveness_m002.json": "6bce97d688e3f433e4e1fdf93d8d16928f981d03356727dec6c8a621998819a3",
+    "data/exhaustiveness_m003.json": "acad2f5c0f486bcd9b5beb2934f8d83e74bd5d23357573dcc8f56bd469f1b63f",
+    "data/exhaustiveness_m004.json": "0ba2ce08d12d5bc3bf8498d104906636db526b27e0aef6e0c99433aaff1b7dab",
+    "data/exhaustiveness_m005.json": "a4272a1d0104eeee21bb61187d80909f9991349ff207db989a5469ffdbb2323a",
+    "data/exhaustiveness_m006.json": "0475eeb9153b530db046d7f3bcd1d3b46f6f2d4736b510dbad573a59463292ad",
+    "data/exhaustiveness_m007.json": "538ae0abbccbcb079bd3e44b5609f5cd0e9fd3c057a4690fc807f9705e315c97",
+    "data/exhaustiveness_m008.json": "5c1169df6bfdd01ec53082ebff0655cc79372db84d17f7e9e41cd5a66d90e98b",
+    "data/exhaustiveness_m009.json": "51706e7eb9574c64b33d70bd03100d9ccac07604415fa833506f03b1cf95fe9c",
+    "data/exhaustiveness_m010.json": "eb9760be27c436506c0414688c586bdde9f5918525a49da6c99c392ef6c93d02",
+    "data/exhaustiveness_m011.json": "81d86b5fc3c92898503de40922003fad6ceb41ce62e5b587c0823d4d99186da0",
+    "data/exhaustiveness_m012.json": "a51245344d584d0e62699aa287b5166a3fe79da73829467190b6e3e7dcc45c63",
+    "data/exhaustiveness_m013.json": "0832b8fc19c5350bd958e85e53da2dd884a5a7c9b2293a50076181aba9a9e182",
+    "data/exhaustiveness_m014.json": "83aa43de89d573dd517b356fa4a30950b675db674bbf413ed12bf544b9ea7232",
+    "data/exhaustiveness_m015.json": "6d57ac97b62fe30f050dbb7987c28342108bf735317aff7448733fbe33972155",
+    "data/exhaustiveness_m016.json": "e091314ebdd9745870150eedabe649cfe3473e11fbd4d14e9b92217bcd2dc7fb",
+    "data/exhaustiveness_m017.json": "52976668fdfd5eef392ca8cf51559024f3e581d863aab04be3619eaeebe10663",
+    "data/exhaustiveness_m018.json": "c82b34f6799f21bbb64a08a9d144af9a3bb3369ec6ddb05da0fba57cf45e7a4e",
+    "data/exhaustiveness_m019.json": "cddcb0cf39c63afbf79efd8447b7ec8e154138cb3c916e101360ef80daab807d",
+    "data/exhaustiveness_m020.json": "b937fde1d5902e340040e251d2199375fe6fcc5064970d8ae24cfdd4bccbc70f",
+    "data/false_premise_m001.json": "3b1bee7df0655f5dd4084ec4b9883f83d54e07891ab0950270288a5656ce0c62",
+    "data/false_premise_m002.json": "27fe7ce80d072094e41703f272a15885921c6d594683fc28bd81929fb6e40c8e",
+    "data/false_premise_m003.json": "55936e5bb51fbb47d678b82aa19804d25714012cea8d79a9ef027fbb6ed27942",
+    "data/false_premise_m004.json": "559849db71a56a29ba90437d79839496082e1ff6295183288f3386c96b65702b",
+    "data/false_premise_m005.json": "98462eaae54dcdf3cb9b403f04ed8843c8b31d6d68ac3e6f8557d3a3743e2fc2",
+    "data/false_premise_m006.json": "a3329353d5583184215156d1315fc9505efb9096c00b5518c3beb69717b5cdc6",
+    "data/false_premise_m007.json": "620c00a1bd592c9d11669203d2dd65b694d86c55e9484c7195032c42b857185f",
+    "data/false_premise_m008.json": "c76793be46595056b9558c6d8df086052495574fed5d645edd43f6cf4cd9f3a2",
+    "data/false_premise_m009.json": "a7b7f600c9801fc751a02cb171ff33d240fc96e5fdc1d816ac6ec0ed11e4f944",
+    "data/false_premise_m010.json": "7f62734ca99aacaab68491fd0d2ab77a6a866ffbea07d31780d03a38ca52a352",
+    "data/false_premise_m011.json": "2434c33cf305994a5232b154b3c2cd1fdb8a96cd334da1b212a0e3ab51d7012e",
+    "data/false_premise_m012.json": "d482d8e38a995e0a62aaa6541ee98325aff4070b0029c9c8dc6facc568486131",
+    "data/false_premise_m013.json": "d1211387f0b128b5167eae1014e4790b743facb9586a68d3a1ec73de1d5c5ef2",
+    "data/false_premise_m014.json": "6f1d766ab90999f28cd5a5d2341716f39ae7ad05c96052b97938706f8e60794c",
+    "data/false_premise_m015.json": "5592b8074498b2ed8376889c9a5747894e9a775cfc8248e7797c265d5e0d6c6f",
+    "data/false_premise_m016.json": "37bd551692d7a352fb9ee4c1690ed3858615d0198a332da1d334970f6b50fb97",
+    "data/false_premise_m017.json": "23793bc4020248c0cce1ef63fdb4f4a5d4ec28d1a5741ce9257200afe2dcd062",
+    "data/false_premise_m018.json": "7cfe68c8e99b40fe4d990aea9968e6f4936218a6b62690c4876074074cd0ed0d",
+    "data/false_premise_m019.json": "fe0760e20b23883b247b582cc1ecb18254263951699b5d3a3cba7dbce049f8a7",
+    "data/false_premise_m020.json": "7e29797d3a36c04247d11f28cb70985175061365dad1939ed2cc733527a899da",
+    "data/finance_missing_support_004.json": "8d25754dc7998b40deadda876b4ee1eecbb468e36c66695d6f240a5debbe39f9",
+    "data/finance_objective_conflict_004.json": "35589e12dd097fb751546899807be94c8d14913fb2d9d8c78016218e8fb638c1",
+    "data/health_objective_conflict_005.json": "2a894bd882e137820f88db6d6d62d7ab6a09f85a4fde6adfc11085888331b795",
+    "data/legal_objective_conflict_003.json": "8be1285f9e0fdf6b15efc5fe3c0a50bdaf9e4017e6fb40959ec7f1a92442d807",
+    "data/med_counterevidence_006.json": "8fb45310a71681bd5e9fc8fa5b2c5c742640379662bf17b6f0c90c016a1ae5c9",
+    "data/med_evidence_insufficient_008.json": "0b992afbf8b7cdbbc9a9376af3664562be08738fbeb481d99510e6c65bcf07e3",
+    "data/med_objective_conflict_006.json": "036785913b6de26c88aeee431eaea26c1af60d44808054b11c1580facbe91ef0",
+    "data/missing_support_m001.json": "c934cb6181bc2fccfe9eb9a8df81d39523403640841ccda8e8636612e8b493d7",
+    "data/missing_support_m002.json": "bbbd2af79b5b4120516fade4dd63a4c052a849ac40daa6f11801b39dbd57f506",
+    "data/missing_support_m003.json": "27f91afa41e14c3f014416bfdb738c35f8e71f25d7aadf1d15afe901095dcf6e",
+    "data/missing_support_m004.json": "aab1b228d648723405cf48750deeae79d6bea72edb746c969b200d14304aa3d3",
+    "data/missing_support_m005.json": "60730cddea10f8411d784f6023ddf8158489e02034f207c77d13da575625118c",
+    "data/missing_support_m006.json": "673417334137617dd6f706ef90ed3476e0584933239c08d9a18b61b30feedd60",
+    "data/missing_support_m007.json": "84ca1f7676ffbbc5827183e2c73089c84ed6854bccb7b81e9c19ff79eeab3537",
+    "data/missing_support_m008.json": "c230006c7aab493a6e7635d9fa2cf8d880793982bda0d4e0cd9f56fab1f85b77",
+    "data/missing_support_m009.json": "59354f18d700cb5623db6ac11aa56975c78a3398f3ef940275fdb53ff76e2cef",
+    "data/missing_support_m010.json": "9c228ce70938dbf4e72d59a430f3657fb9bcf1768f1626421b00ddb52e03d04e",
+    "data/missing_support_m011.json": "bd7e116efcb1e1c449a8181048c599364ad9706ace349afa7539187d74aaa817",
+    "data/missing_support_m012.json": "0fc4ea4346e1546431285dd43312953b680649c7026eb316beda798cda6ee9a4",
+    "data/missing_support_m013.json": "80643e942849579ffabed95b30bb85507f87b882a213a1cbd2a2ba42108cf381",
+    "data/missing_support_m014.json": "299aecd92c7669816550c08ef61f891aa007f6a74ce9a29734e77945770bea1b",
+    "data/missing_support_m015.json": "6ad3c7e775605365552334760a9d8531d6108de3cd9b50115521b4d448322261",
+    "data/missing_support_m016.json": "a6dd400c2c70ad165f2da4ceb82203da2a23b95ad12de44ae7c8c91a86108182",
+    "data/missing_support_m017.json": "8871a9ef0ce042cf5ca4cab22a0c9c17027ed0df779eab18d5b8f505a30b8fca",
+    "data/missing_support_m018.json": "b3b8da1285f3f78c789ecf5b038530f08e696a17c7a03be1f4855790c03b94f9",
+    "data/missing_support_m019.json": "68e173b6244353d9e84b9d51b2ac0c8640d50c8db0e469bc0c1ada529c282f7b",
+    "data/missing_support_m020.json": "6ffea5b2daf7f0f831bc237fcdc8ba4e752e6a58a655c9af308c6ea50311857c",
+    "data/nutrition_counterevidence_002.json": "c1dc3d533325411c207b4221dd90d7b655fcf75f83df67ba0b07d594eaa4a8dd",
+    "data/nutrition_evidence_insufficient_004.json": "14ea86c43a8f851440ff6a636f79d157f6600f88d27def9cfd528ee566c12b41",
+    "data/objective_conflict_m001.json": "0e8a741958136f0dcbc367f3ee16803396bafc8163c8558ba20486e8675e8628",
+    "data/objective_conflict_m002.json": "1986d28121a6f8f77b25f8742d8c5f810e7fc88a5fdec72458a51177edae02c7",
+    "data/objective_conflict_m003.json": "839c59bcd4c6d8b6cd4c0e7b80348432fcfc73d710b00cb10c519914f7708518",
+    "data/objective_conflict_m004.json": "f6cfd47588d2ef6f952e010c4ac1608ed3b8565be609fde6885cdbdf58c2f4f0",
+    "data/objective_conflict_m005.json": "09769fae341d7509215208370587a415da85df1bd1881152dc50aa6bb18c18a2",
+    "data/objective_conflict_m006.json": "1fa909d916bdce826354d9e5606051ff8ed00471370b0fa01a2f99098dfe2bb3",
+    "data/objective_conflict_m007.json": "640675c8f23af83a4010e099378ce147d14e5312f8aad3be64a6db7fb7297998",
+    "data/objective_conflict_m008.json": "2a7054ef2e69da9ece41ddae405256409cdc854f7bf442cb28168c172b978eae",
+    "data/objective_conflict_m009.json": "b791cda0fcfe831b73199159e31416d13f4ca64105c8aab389ac430e6ea3274d",
+    "data/objective_conflict_m010.json": "51fd8889cfe36d568cb74e4009a5011a1f6fd8afccd9b4ad1cde01678dcc149e",
+    "data/objective_conflict_m011.json": "d57c1871c768aa42ee4108c111547a67902d64a77632edf5d0484d3585dec1ad",
+    "data/objective_conflict_m012.json": "703614326a2dc92821905978ba1b031c1fcde0f66e23a77ddfdcef024d5a8be2",
+    "data/objective_conflict_m013.json": "fb2ddebcfc4e74dd330b87f1a962bc7ccdfbc1c892745da6fb5645bc10a4c752",
+    "data/objective_conflict_m014.json": "64ee8a8c6a5e6aa9791c3f08b91b932f0d43f1af55d4e529bd79e61905389f89",
+    "data/objective_conflict_m015.json": "433c0ce62de5f6e899282368a4bd421346aee00695e85fd2b6488fc119d7063c",
+    "data/objective_conflict_m016.json": "7ba35bf2156bc6d54c28ed33c1e4a12023b938a94b0af735d5b0f96cfe8e69e2",
+    "data/objective_conflict_m017.json": "9f92a2d03825249d879624a41904b311b2c10d0533181b6048b83e5616baf147",
+    "data/objective_conflict_m018.json": "290113825009ce8964bb2e67467710e06da702abe7eede6eec2f8082b03d3c23",
+    "data/objective_conflict_m019.json": "bfe1f46ace2232691dc559f2d0ad3d84221c00557e375c6e86a0a7eb33255fa5",
+    "data/objective_conflict_m020.json": "ceebd4440ec1473e76bfab78c71d2769e568f487bfa5b5b4bff5649b435ad184",
+    "data/policy_evidence_insufficient_005.json": "7e64fef61445c171e9ef5c8bb0aad5becaecc31eb6945d5f1c72a04c731bd4b0",
+    "data/policy_exhaustiveness_004.json": "e8576242d80444d7f040d60e7ed5f80e32acb6dbe17adab7b327bfe99f589507",
+    "data/security_exhaustiveness_005.json": "1a69ace067be858210af5561502c8c2b150dee13856f56b87affe04fe43197d7",
+    "data/stats_objective_conflict_007.json": "53b8f48bfb28d1246dd4f5e0c7135fb44f1ad2a5ccb5818e79b7d54254022767",
+    "data/stats_objective_conflict_008.json": "7add21fa429efe85e2aa2820d865087dbc5e7dcbb59795c67005479eed36f413",
+    "data/stats_objective_conflict_009.json": "8b2e31c6a577ee43c29a3a9307307b14da1829fcc3eaa0fcdf3a53e9447d0e31",
+    "data/stats_objective_conflict_010.json": "662230d352098b75123e1d883a9bf1b9220990c238e55be23a29e7481bc7dfed",
+    "data/stats_objective_conflict_011.json": "423e0e22bd4c271dbbfa7ed7f1b3120fabfc9612a407c36e8fe055f3d352940a",
+    "data/stats_objective_conflict_012.json": "16357e40204b88952b74f34e4087f723b226e74c30dfec464f8ab5b173556ba7",
+    "data/stats_objective_conflict_013.json": "86f9e5e54525b805b3ed99cb4f957c950b23ce73a7890e7f2a7f7586933e5b4c",
+    "data/stats_objective_conflict_014.json": "a938969534a178701d43bf01d5b09c371394eabfce91f87c3f8dff9b94b5603f",
+    "data/stats_objective_conflict_015.json": "c04c54185ba9363c24d28a1e7e5035d0a2d225e3781e6637e06da77d4f5759b2",
+    "data/stats_objective_conflict_016.json": "3930352bdf1b348944e10d19ce885b580c1598d29d41081c545a81bf6d899b55",
+    "data/stats_objective_conflict_017.json": "ae741de9e3236b79097ea57e4eca06b43209bbe5adaed60ced741dc25a7cfd80",
+    "data/stats_objective_conflict_018.json": "3525bdf6d3ab237cf15f46a6796a205f41ff03c9e53b5e286055d4553dd71b78",
+    "data/stats_objective_conflict_019.json": "8fef622e463daf7b573cf40c748fd88b20f2e2e9284bdc96350d8eb645257b0a",
+    "data/stats_objective_conflict_020.json": "146b4bdad263397a4b52a0f8d6bc0a4e41cadea15ed991b998f71a4db3a9b3b0",
+    "data/stats_objective_conflict_021.json": "fe85a137c2e7662d12f7c54d87eebc5f7243640564a4d14c97bceca47cdff3c6",
+    "data/tech_false_premise_005.json": "7f60163f4948c98a97ce34c5993a5e4199887971390123fd5c8d1160f99ae428",
+    "data_control/ctrl_001.json": "d5608af1652d29f16e8437a2df051de48772bb355d183bf30a51d4eb0d7b02fc",
+    "data_control/ctrl_002.json": "94e571e0e940fd054d5b6dc66ccde92e897f13e23eaad6b6026540a7583fca64",
+    "data_control/ctrl_003.json": "56200ab1e6e3cacd2b1fc7167f0ca7496b77d77daa0664547836f8ce2020da75",
+    "data_control/ctrl_004.json": "b2e75832d8c95617c2ffab92c7c611ab3c2019b94c3032e39bc26f0b9e820bd6",
+    "data_control/ctrl_005.json": "e47c9eb4ebeeaab2fbd311aadf3cbe6a81102a417cde6c9dd0a6c7f15d92f495",
+    "data_control/ctrl_006.json": "1acde89406ec39f409ec3c8a1d296e773396c399ac9c3f4de1b6f94129de36d8",
+    "data_control/ctrl_007.json": "a42017aab7905cd4defa74c2eda34eb024bd46646e643a76e59d646a3d2b8f53",
+    "data_control/ctrl_008.json": "aecbd8cfcc26db41f6793e4cfe61d8d00e72eba86d3bdb05f0b6debed4f66ffb",
+    "data_control/ctrl_009.json": "fe0796cf8458acb7f0a9327043dd7f608fa5bd8b25420f2259f2deb7aef4ebdb",
+    "data_control/ctrl_010.json": "1d2d9cb09cf3bc0ef25885689c838ea83b5b96ccb033662fbf9f2bf4ed2d70c0",
+    "data_control/ctrl_011.json": "92552a244ef456a36593cc35195956436ab79e12299e3d602d5c72ccb85cf277",
+    "data_control/ctrl_012.json": "aaff081ec2e84184e2f2203cb7d8ac8b8be318a5553dbd06269f6cb0ffd274e0",
+    "data_control/ctrl_hp_01.json": "7d92ec5aca13c0c60d62b15957e7d87ae9878ab09b30bf538cf032c9413986b3",
+    "data_control/ctrl_hp_02.json": "6b7097883c20a354c74393540970b553598fa135b9e34aae1bd37c5b2a7143f2",
+    "data_control/ctrl_hp_03.json": "f32ad6cb338eda162e7e48a84ad425f23add7cccd02bd42b02addba02c460e56",
+    "data_control/ctrl_hp_04.json": "e4418792a7475c1129f9fdbfa3b5a0709b9a9476cb0bb81cbcf89e67dd34980b",
+    "data_control/ctrl_hp_05.json": "a4e13f8c55110eb70883c80253f82c7a2024accce31fd3a5b505582a86677025",
+    "data_control/ctrl_hp_06.json": "16bd9c19257ac0e4003771e79a4380f0e14acb6b196b3dc5b5d381d730921a5b",
+    "data_control/ctrl_hp_07.json": "341e8b78607c6c934caff244c8fc714bc6acda356235d42893028254ddb3a688",
+    "data_control/ctrl_hp_08.json": "7fd716b74e21936260250eca7dd93175a7c2e3df2a93ce1f414516f3b7fe1d6f",
+    "data_control/ctrl_hp_09.json": "f1f8023afb2c6fbebd294ebfae22633cb835c91775c0f99bbe1c75163e614401",
+    "data_control/ctrl_hp_10.json": "7229c0bac1b5365116841f69e3d98e92c97b12dedd19896e57a68df54539b7d4",
+    "data_control/ctrl_hp_11.json": "a671241bbf2cfac1d35cb9677bb1b00b8fc7c8364f2a38fef966282d557eb98e",
+    "data_control/ctrl_hp_12.json": "d6a8c025aa342798662ebe540df5c326d2b46b40f4df978a82f6f4550b14750e",
+    "data_control/ctrl_hp_13.json": "d28c243f8429ff50dd58e8eedd6c2e6d9179812a3d3d0f72f918ce26d700cc11",
+    "data_control/ctrl_hp_14.json": "14f86ac7f513185aea607f5feb4e5300f73dc0fb70e1d75686f06d0da307d06c",
+    "data_control/ctrl_hp_15.json": "77b28a2959c5ad0aa9dfa156b829c55f586dcfe5ccf9c56912a3bc742bf42e25",
+    "data_control/ctrl_hp_16.json": "2291abbe5ee3cd4f7493de79e729e144d128100ba8fdd0d3354380face3b09f7",
+    "data_control/ctrl_hp_17.json": "e9915ac505804e2b20f4a0e403fa40362b30b85d7d0374bbb6d9862042c881f8",
+    "data_control/ctrl_hp_18.json": "d6294a939dd2cc393aaa3a8eeead34ef67764627a88791bafdbf4938e82e5aea",
+    "data_control/ctrl_hp_19.json": "46f3ab87b804e85a070cfbb3c8195e19bf630afdd2e1915d253486022fa401c3",
+    "data_control/ctrl_hp_20.json": "45b349602490c8a9f451b51275cffab52634cdd92e3c70795170e72e91ac23bd",
+    "data_control/ctrl_hp_21.json": "4dc355db547c82ddbff6a6a18f979f918884b29762ea619a7bddff7ad4cac69a",
+    "data_control/ctrl_hp_22.json": "a978290a759891ddc4b265f581c2af241d021a2bfd61c49ba7c5b3e9122f7358",
+    "data_control/ctrl_hp_23.json": "61a492a3de7b8698a4fe24033f90adac89cdfc99e806dbaadbc3be41ae809e76",
+    "data_control/ctrl_hp_24.json": "8506801d9c1f6a17bfa6a231eeefae1234254c5ca8cd9230a731f6cb6ec7c13a",
+    "data_control/ctrl_hp_25.json": "35e44dd1398a80e984f2fb2b5417a9ce35bfba9132491f563b1ee6c29f713963",
+    "data_control/ctrl_hp_26.json": "8ad6eb9c5c78fb9ca332cd7361cde4cff002e9768052b2c10f01b3cdcaa6458f",
+    "data_control/ctrl_hp_27.json": "a01e6cc990925d20f58734cb311d79b6fda55fab38b55bf54cecfc5609f742fb",
+    "data_control/ctrl_hp_28.json": "fc37c20227ef69e416f7390115b5c92f155850073f7e4f1f3113ab11440652a1",
+    "data_control/ctrl_hp_29.json": "22118ffe241aa74c56b2bf876ca212d37e9bb90b4b957c182c963f351a85511f",
+    "data_control/ctrl_hp_30.json": "cd2c1bfaf87f999354f731939c3ebde27327df292a7cfc233e9c6070d3112672",
+    "data_control/ctrl_hp_31.json": "e49fe2087a9905620c42737ea8000fb72b4b7c78dc6ed4fce959fdd09f74365e",
+    "data_control/ctrl_hp_32.json": "8e650b1411d3035a84d12f1a84fa2400f50ebeacb13e505f8fda78fe2d74cc9e",
+    "data_control/ctrl_hp_33.json": "e14e74ab5ab8eaa037ee46defe8cc86e874d1594aba8aef7022ed4e22e9b8e7c",
+    "data_control/ctrl_hp_34.json": "831203b6c47cb75f6a6a0b5fbcd3e64a00025bcec48a0b80ef51bff37ba49fee",
+    "data_control/ctrl_hp_35.json": "83e26e19ba28242917acd936a307595b2fdc0cffe04fa5b7fc71a96a37ebc5ce",
+    "data_control/ctrl_hp_36.json": "a3d1a693514762f4ca5ffac2bcfe7ea8bdd8e16dcfc559152c111679298adeb8",
+    "docs/DATASET.md": "3f4a2301710dfd4ac7e6239be4fed69c9437e12eb7d8ac531e3bb6bba6873db6",
+    "docs/EVALUATION.md": "92a3ddb6350aa28c85a86176bae4b15c30cfdfcaa3a63cb57b56b9f272a0606f",
+    "docs/LIMITATIONS.md": "cb79585b37b1b09076993d25f9e012908737e2a1866e7dfef6c747dd16d4e081",
+    "docs/RESULTS.md": "af1b0a5abd63524ef442c9688c8957be8357d1f18aef5e3516d153f32c60c901",
+    "docs/source_manifest.json": "53a9735251970e9b31a5251563797468537f849fa5df989ab4ee3a3f59da1c78",
+    "environments.json": "574559efa50ae8dbb08f6e62e39c3f90418e38be56640d798473aae40dda36f7",
+    "environments.jsonl": "3faf9ca739d70ac4f1927b5f68eba7d4b55708101e61b1766b14fe0e262eada0",
+    "environments_all.json": "3fcecec2261631db03c542a8c0554d1b9168705ffe14908c769659858a00de4d",
+    "environments_all.jsonl": "afd1dada93df7548f83295b3aa111cc500382cffc89ecac7cc370ac10cfd9aee",
+    "evaluate.py": "26a61368a6dd2d41c7e7eec3ab827b11a204dc70bde16f00f94f79dd05130ca2",
+    "export_inputs.py": "ab23e4661c87d6db3aface823f27fec9a83b2ab626309c7d1359b8f95631b552",
+    "prompts/README.md": "30c92072ad3898c240be48ac511ee6ec03bfc7fd3cf1229ef6da5bdece8153cd",
+    "prompts/attacker.txt": "233edcf0eec9ed4072a165cf1b658ce164b900199ff8bd8a6dfb2011d231f3ce",
+    "prompts/generator.txt": "4058f7bc402f49506a3d2d0d1c9cd0763aec497f7588f0b51bcb1ce3a609fc6f",
+    "prompts/judge.txt": "afb4d6164f8346efe87f07ee0c9baf2245d38787f9a56a1ee2a81cbc6af37457",
+    "prompts/oracle.txt": "74b1b586eacf2431abb89a07977bae3a9672642d7d63bb0bd1f5214f8bf54079",
+    "reports/coverage_report.json": "e027a8498ee677fc011bf4bd391ffcd6048e6aad3ebe541cc1a3d300e97ca130",
+    "reports/validation_report.md": "0ec29102375b05e23df8402d9c38bdd17b4da1a84e354930f5f7411d69ee39ec",
+    "requirements.txt": "a031c8749ce1b05faa0e22c8d3fc50c213ddda55206bc67584027a1b88066f41",
+    "results/census/bridge/gpt54mini_rescore_hard45.json": "76ed649e5f75925eaf55d415262b2f77447fe4e5f9bed9b2e8eb9bc4f44070da",
+    "results/census/bridge/gpt55_rescore_hard45.json": "95e352ae88772daba40a54dd8af23bd62e7603e8b72f47044783087833dee8f0",
+    "results/census/dsv4flash_full_runs.json": "67b5e06b941225a2f9bd4746c82a9e08248f989433f8b745ccdd38d81f5b832e",
+    "results/census/dsv4flash_hardset_runs.json": "8d64afdc08bbcae0125c1aab2b1504adc2b7991c94b262ee25025fb1ba3e3c92",
+    "results/census/full150_neutral_adaptive_runs.json": "fe9a27b6682bee216edbf71caafed5ffe3fbd0e8064cb95b19cac3cb6305d5cb",
+    "results/census/gpt54mini_full_runs.json": "bcb140c3465c3caa1dae1a2db351a34bfece06c0cdb775632a5e0ad5e28086e2",
+    "results/census/gpt55_full_runs.json": "c0611d7edae2f3c5f69961dc0026078d0c17061497a45365cf8c74c77260daec",
+    "results/census/gpt55_hardset_runs.json": "1f2b082b7b16f418f11b87f1cd174b4a92dcaa022f1427dec46d6c8680955905",
+    "results/census/gpt56luna_full_runs.json": "67052e3d23dc9b39c26db5601ceecc1287f077813cf82c0204994710bf58be74",
+    "results/census/gpt56luna_hardset_runs.json": "eba3ac370a98a0377a1743fc7611cb460cf5930bc0656436c329682be6e160aa",
+    "results/census/gpt56sol_full_runs.json": "3f8dfd9132ad4f756fe5819fbe923c340001c9872f745ee3b4df74cf0f172295",
+    "results/census/gpt56sol_hardset_runs.json": "0e2971e8c26563a4e7e737772802c2e5e46c8d428583cc2cf02a0e6a1e669cb8",
+    "results/census/gpt56terra_full_runs.json": "d58057a1a839d6f52a00c100bedbaff6695a45302f48c9613491479718cb4de9",
+    "results/census/gpt56terra_hardset_runs.json": "aebec652a6032d1c45abed890aa9ca581d434558581a02fa828cf23a245d25e8",
+    "results/census/opus5_full_runs.json": "017789c5db0e5e4a6125d2c0ef38c284ab32bdc410695b639bb8b3d38c1036d8",
+    "results/census/opus5_hardset_runs.json": "746e1b58a785ca50d9ce37680e98a11097d43d8b542f4619fa78913d35a39e9d",
+    "results/census/sonnet5_full_runs.json": "c80f1e071c5fe156ceb2fb53f0e88e8938cbf4083e44373df3d5a1f946638758",
+    "results/census/sonnet5_hardset_runs.json": "e957d6668d5085b9fdb4038558a3a3b424d2a09b5d85a4b9b2acedb603d3a326",
+    "results/difficulty_selection.json": "d2874053844ff8349c298ae8fee6c156403d3be66747ee8766a886558a340bd0",
+    "schema/control_environment.schema.json": "0acba59edf929bf08f0da62f3f32450031f1cac4e6a1e8950fb49f2f069cc014",
+    "schema/environment.schema.json": "e905ebe87cfb341fe481447ae5b22ab70d467e9bc9e9ff260ab2f5b15452ed64",
+    "splits/all169.json": "bffc18d17528544b02980830fee95c015e5ebf19fdbc38228266380599511156",
+    "splits/controls48.json": "38fe44e57f26461286751feabcce77dce2c8b0ad9c1116e224172d16204e2516",
+    "splits/full150.json": "005421fc708fa12d3a6064ae808cd695908d0b615bacbc3bf3fd0fabd88fb17d",
+    "splits/hard45.json": "7d5dcae9dbf980aadbbe8b8b71bff5100fa02eec8cd473c25a8fe63ff23af17d",
+    "tests/test_build_dataset.py": "a7a94e664169521da8824414cc8eb951502096572980b0a47612a335bc33ca8b",
+    "tests/test_evaluate.py": "014246a7d0353413df1fbbd098ebe5e4851c0c9083cc29d113adf4384a16f179",
+    "tests/test_export_inputs.py": "9de3653a4a5a9931e14ed8c3616bde5dcb36a98a04444eaa349c0ac26b14113a"
+  },
+  "format_version": 1,
+  "preparation_commit": "9d43a9c1a615c721ba03d97313b39fc0f08f2c28",
+  "preparation_has_uncommitted_changes": false,
+  "source_repository": "eyuansu62/impossible_rubrics",
+  "upstream_dataset_snapshot_commit": "a3ff18d48983fd6f2712d5cb7083a3aff2ad12e6"
+}

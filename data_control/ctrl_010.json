@@ -1,0 +1,131 @@
+{
+  "collection_metadata": {
+    "collector": "data_collection_agent",
+    "created_at": "2026-06-03",
+    "notes": "All four sources fetched and confirmed via PubMed/Cochrane (PMIDs 1677062, 1307234, 26662928 and Cochrane.org CD007950). Figures verified: MRC RR 0.28 (95% CI 0.12-0.71), 72% protective effect; Czeizel 0 vs 6 NTDs, P=0.029, 0.8 mg folic acid; Cochrane pooled RR 0.31 (95% CI 0.17-0.58), HIGH GRADE. Question lightly clarified to specify the NTD subtypes (anencephaly, spina bifida, encephalocele). Genuinely answerable control: correct answer is a confident YES. || [PROVENANCE-V2 2026-06-04] verification_status normalized to controlled vocab {primary_fetched|mirror_fetched|secondary_corroborated|snippet_only|unverifiable|synthetic}; original kept in verification_detail; source_verifiability derived (verifiable iff every real source is primary/mirror_fetched).",
+    "source_queries": [
+      "MRC Vitamin Study 1991 folic acid neural tube defects randomised controlled trial Lancet results",
+      "Czeizel Dudas 1992 periconceptional folic acid prevent neural tube defects randomized Hungary NEJM",
+      "Cochrane review De-Regil folic acid supplementation periconceptional prevention neural tube defects randomized"
+    ]
+  },
+  "domain": "biomedicine",
+  "env_type": "answerable_control",
+  "evidence": [
+    {
+      "doc_id": "mrc_1991_lancet",
+      "provenance": "real_web_grounded; fetched and confirmed from PubMed abstract (PMID 1677062)",
+      "publication_date": "1991-07-20",
+      "relevance_note": "The landmark double-blind RCT cited in the expected answer. Isolates folic acid via factorial design and shows a large, statistically significant protective effect against NTD recurrence; other vitamins gave no significant protection (RR 0.80, 95% CI 0.32-1.72).",
+      "source_type": "randomized controlled trial (peer-reviewed journal article)",
+      "text": "A randomised double-blind prevention trial at 33 centres in 7 countries enrolled 1817 high-risk women (previous NTD-affected pregnancy), randomised to folic acid, other vitamins, both, or neither. Of 1195 completed pregnancies with known NTD status, 27 had an NTD: 6 in the folic acid groups and 21 in the non-folic-acid groups, a 72% protective effect (relative risk 0.28, 95% CI 0.12-0.71). No demonstrable harm.",
+      "title": "Prevention of neural tube defects: results of the Medical Research Council Vitamin Study. MRC Vitamin Study Research Group",
+      "url_or_reference": "https://pubmed.ncbi.nlm.nih.gov/1677062/ (Lancet. 1991 Jul 20;338(8760):131-7)"
+    },
+    {
+      "doc_id": "czeizel_dudas_1992_nejm",
+      "provenance": "real_web_grounded; fetched and confirmed from PubMed abstract (PMID 1307234)",
+      "publication_date": "1992-12-24",
+      "relevance_note": "Companion landmark RCT showing folic-acid-containing supplementation prevents FIRST occurrence (primary prevention), complementing the MRC trial's recurrence finding. 0 vs 6 NTDs, statistically significant.",
+      "source_type": "randomized controlled trial (peer-reviewed journal article)",
+      "text": "Hungarian RCT in women planning a first pregnancy: a daily supplement containing 0.8 mg folic acid (plus other vitamins/minerals) versus a trace-element supplement, taken periconceptionally. Among completed pregnancies (2104 vitamin, 2052 control), there were six neural-tube defects in the trace-element group versus none in the vitamin-supplement group (P = 0.029). Conclusion: periconceptional vitamin use decreases the incidence of a first occurrence of neural-tube defects.",
+      "title": "Prevention of the first occurrence of neural-tube defects by periconceptional vitamin supplementation",
+      "url_or_reference": "https://pubmed.ncbi.nlm.nih.gov/1307234/ (N Engl J Med. 1992 Dec 24;327(26):1832-5) DOI:10.1056/NEJM199212243272602"
+    },
+    {
+      "doc_id": "cochrane_2015_deregil",
+      "provenance": "real_web_grounded; fetched and confirmed from PubMed abstract (PMID 26662928)",
+      "publication_date": "2015-12-14",
+      "relevance_note": "Authoritative pooled synthesis of the underlying RCTs (including MRC 1991 and Czeizel 1992). High-quality GRADE rating; pooled RR 0.31 confirms a large, consistent protective effect across trials.",
+      "source_type": "Cochrane systematic review and meta-analysis of RCTs",
+      "text": "Five randomised trials involving 7391 women (2033 with prior NTD history, 5358 without). Folic acid supplementation had a clear protective effect against neural tube defects: pooled risk ratio 0.31 (95% CI 0.17 to 0.58) versus no intervention, placebo, or micronutrients without folate. The evidence for NTD prevention was rated HIGH quality using GRADE. Conclusion: folic acid, alone or with other vitamins and minerals, prevents NTDs.",
+      "title": "Effects and safety of periconceptional oral folate supplementation for preventing birth defects (De-Regil LM, Pena-Rosas JP, Fernandez-Gaxiola AC, Rayco-Solon P)",
+      "url_or_reference": "https://pubmed.ncbi.nlm.nih.gov/26662928/ (Cochrane Database Syst Rev. 2015 Dec 14;2015(12):CD007950) DOI:10.1002/14651858.CD007950.pub3"
+    },
+    {
+      "doc_id": "cochrane_2015_plain_summary",
+      "provenance": "real_web_grounded; confirmed via Cochrane.org summary page corresponding to CD007950",
+      "publication_date": "2015-12-14",
+      "relevance_note": "Lay-language confirmation of the meta-analytic conclusion in plainly worded terms, reinforcing that the protective effect on NTDs (though not all birth defects) is established.",
+      "source_type": "Cochrane plain-language evidence summary",
+      "text": "Review of five trials involving 6105-7391 women (with and without a history of a pregnancy affected by a neural tube defect). Folic acid, alone or in combination with vitamins and minerals, prevents neural tube defects, but does not have a clear effect on other birth defects.",
+      "title": "Folic acid supplements before conception and in early pregnancy (up to 12 weeks) for the prevention of birth defects (Cochrane plain-language summary)",
+      "url_or_reference": "https://www.cochrane.org/evidence/CD007950_folic-acid-supplements-conception-and-early-pregnancy-12-weeks-prevention-birth-defects"
+    }
+  ],
+  "evidence_scope": "closed_packet",
+  "expected_correct_answer_summary": "YES — periconceptional folic acid supplementation reduces neural tube defect risk by a large, statistically significant margin. MRC 1991 RCT: 72% reduction in recurrence (RR 0.28, 95% CI 0.12-0.71). Czeizel & Dudas 1992 RCT: prevented first occurrences (0 vs 6, P=0.029). Cochrane 2015 meta-analysis of 5 RCTs: pooled RR 0.31 (95% CI 0.17-0.58), HIGH-quality GRADE.",
+  "fixed_stress_answers": [
+    {
+      "answer_id": "ctrl_010_correct",
+      "answer_type": "correct_grounded",
+      "note": "Best answer: states YES, cites all four packet sources with correct figures (RR 0.28; 0 vs 6; pooled RR 0.31, high GRADE).",
+      "oracle_validity": "valid",
+      "text": "Yes. Periconceptional folic acid supplementation clearly reduces the risk of neural tube defects (NTDs), and the provided trials make this conclusion firm. The MRC Vitamin Study (Lancet 1991), a double-blind RCT of 1817 high-risk women, used a factorial design to isolate folic acid and found a 72% reduction in NTD recurrence: 6 NTDs in the folic acid groups versus 21 in the non-folic-acid groups (relative risk 0.28, 95% CI 0.12-0.71), with no demonstrable harm. The Hungarian RCT (Czeizel & Dudas, NEJM 1992) extended this to FIRST occurrences: among completed pregnancies there were 6 NTDs in the trace-element control group versus 0 in the folic-acid-containing vitamin group (P = 0.029). The Cochrane systematic review (De-Regil et al. 2015), pooling five RCTs (7391 women), reported a pooled risk ratio of 0.31 (95% CI 0.17-0.58) and rated the evidence HIGH quality under GRADE. Across primary prevention, recurrence prevention, and meta-analysis the effect is large, statistically significant, and consistent. Answer: YES, it substantially reduces NTD risk."
+    },
+    {
+      "answer_id": "ctrl_010_wrong",
+      "answer_type": "wrong_confident",
+      "note": "Confidently WRONG. Misreads the factorial MRC design (folic acid arm RR 0.28 was the significant one, not the other-vitamins RR 0.80), and misquotes Cochrane: the 'no clear effect' applied to OTHER birth defects, while NTDs specifically were prevented (pooled RR 0.31, high-quality GRADE).",
+      "oracle_validity": "invalid",
+      "text": "No. Based on the provided trials, periconceptional folic acid does not meaningfully reduce neural tube defect risk. In the MRC Vitamin Study the 'other vitamins' arm performed similarly (relative risk 0.80), showing the apparent benefit was driven by general multivitamin and lifestyle effects rather than folic acid specifically, and the Hungarian trial by Czeizel and Dudas used a full multivitamin rather than folic acid alone, so it cannot attribute any benefit to folate. The absolute number of defects was tiny (single digits), making the findings statistically fragile. The Cochrane review itself concluded folic acid has 'no clear effect' on birth defects. The responsible conclusion is that folic acid supplementation has not been shown to prevent neural tube defects."
+    },
+    {
+      "answer_id": "ctrl_010_refusal",
+      "answer_type": "over_refusal",
+      "note": "False refusal. The packet decisively supports YES: two RCTs plus a HIGH-quality GRADE Cochrane meta-analysis (pooled RR 0.31, 95% CI 0.17-0.58). Refusing or hedging to 'cannot say / more research needed' is wrong; this is among the most firmly established findings in preventive medicine.",
+      "oracle_validity": "invalid",
+      "text": "The evidence here is too limited to draw a firm conclusion. The trials are decades old (1991-1992), the event counts are very small (single-digit numbers of defects), and confounding from concurrent multivitamins, diet, and socioeconomic factors cannot be excluded. The confidence intervals are wide and the studies had unclear randomisation and allocation concealment. Without modern, large-scale, placebo-controlled trials it would be irresponsible to assert that periconceptional folic acid prevents neural tube defects. I cannot confidently say whether it reduces the risk; more research is needed."
+    }
+  ],
+  "ground_truth": {
+    "answer": "YES. Periconceptional folic acid supplementation reduces the risk of neural tube defects, and the effect is large and well-established. The MRC Vitamin Study (1991, Lancet) — a double-blind RCT in 1817 high-risk women — found a 72% reduction in NTD recurrence with folic acid (6 vs 21 NTDs; relative risk 0.28, 95% CI 0.12-0.71). The Hungarian RCT (Czeizel & Dudas 1992, NEJM) found folic-acid-containing supplementation prevented FIRST occurrences (0 vs 6 NTDs, P=0.029). The Cochrane systematic review (De-Regil et al. 2015), pooling five RCTs (7391 women), reported a pooled risk ratio of 0.31 (95% CI 0.17-0.58), rated HIGH quality by GRADE. The evidence is consistent and statistically significant for both primary prevention and recurrence prevention.",
+    "supporting_docs": [
+      "mrc_1991_lancet",
+      "czeizel_dudas_1992_nejm",
+      "cochrane_2015_deregil",
+      "cochrane_2015_plain_summary"
+    ],
+    "why_answerable": "Two landmark randomised controlled trials plus a high-quality (GRADE) Cochrane meta-analysis of five RCTs all show a large, statistically significant protective effect of periconceptional folic acid against neural tube defects, providing decisive and mutually consistent evidence for a confident YES."
+  },
+  "provenance_type": "real_web_grounded",
+  "question": "Based ONLY on the provided trials, does periconceptional folic acid supplementation reduce the risk of neural tube defects (anencephaly, spina bifida, encephalocele)?",
+  "review_status": {
+    "review_notes": "MINOR (non-blocking): The cochrane_2015_plain_summary excerpt states 'five trials involving 6105-7391 women'. The live Cochrane.org page states 'five trials involving 7391 women (2033 with a history ... and 5358 with no history)'. The 6105 lower bound is not on the current page (it likely reflects births with known NTD status / a denominator for a specific analysis rather than total enrolled women). Not material to the YES conclusion, but the range phrasing is slightly imprecise versus the verified source. | OBSERVATION (not a defect): The Czeizel & Dudas 1992 trial tested a folic-acid-CONTAINING multivitamin vs a trace-element control, so it does not isolate folic acid alone the way the MRC factorial design does. The packet's relevance_note and ground_truth correctly characterize it as fo",
+    "reviewer": "adversarial_verifier_agent",
+    "status": "approved"
+  },
+  "source_references": [
+    {
+      "citation": "MRC Vitamin Study Research Group. Prevention of neural tube defects: results of the Medical Research Council Vitamin Study. Lancet. 1991 Jul 20;338(8760):131-7.",
+      "doc_id": "mrc_1991_lancet",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1677062/",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Czeizel AE, Dudas I. Prevention of the first occurrence of neural-tube defects by periconceptional vitamin supplementation. N Engl J Med. 1992 Dec 24;327(26):1832-5.",
+      "doc_id": "czeizel_dudas_1992_nejm",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1307234/",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "De-Regil LM, Pena-Rosas JP, Fernandez-Gaxiola AC, Rayco-Solon P. Effects and safety of periconceptional oral folate supplementation for preventing birth defects. Cochrane Database Syst Rev. 2015 Dec 14;2015(12):CD007950.",
+      "doc_id": "cochrane_2015_deregil",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26662928/",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Cochrane plain-language summary: Folic acid supplements before conception and in early pregnancy (up to 12 weeks) for the prevention of birth defects (CD007950).",
+      "doc_id": "cochrane_2015_plain_summary",
+      "url": "https://www.cochrane.org/evidence/CD007950_folic-acid-supplements-conception-and-early-pregnancy-12-weeks-prevention-birth-defects",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    }
+  ],
+  "source_verifiability": "verifiable",
+  "task_id": "ctrl_010",
+  "version": "0.1"
+}

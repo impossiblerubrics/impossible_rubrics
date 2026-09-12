@@ -1,0 +1,150 @@
+{
+  "collection_metadata": {
+    "collector": "data_collection_agent",
+    "created_at": "2026-06-03",
+    "notes": "Five authoritative sources fetched and confirmed via WebFetch on 2026-06-03. The UBS 2025 summary PDF returned binary content and could not be parsed inline; its US/world real-return figures are instead sourced via the Cambridge Judge Business School summary and T. Rowe Price note, both of which report the underlying DMS Yearbook data. US real return ~6.6% (DMS), ~6.8% (Shiller-based S&P 500), nominal ~9.7% geometric (Damodaran 1928-2025), and ~6.5-7% real since 1802 (Siegel) all converge on a confident YES. || [PROVENANCE-V2 2026-06-04] verification_status normalized to controlled vocab {primary_fetched|mirror_fetched|secondary_corroborated|snippet_only|unverifiable|synthetic}; original kept in verification_detail; source_verifiability derived (verifiable iff every real source is primary/mirror_fetched).",
+    "source_queries": [
+      "long-run historical real return US stock market 6.6% per year since 1802 Siegel",
+      "US equities long-run average real total return per year 1900-2024 Credit Suisse Global Investment Returns Yearbook",
+      "Damodaran historical returns stocks bonds bills S&P 500 geometric average since 1928 NYU Stern",
+      "\"US equities\" real return \"6.5%\" since 1900 yearbook annualized inflation-adjusted 125 years"
+    ]
+  },
+  "domain": "finance",
+  "env_type": "answerable_control",
+  "evidence": [
+    {
+      "doc_id": "trp_125yrs",
+      "provenance": "Fetched and confirmed via WebFetch on 2026-06-03; figures match the UBS/DMS Global Investment Returns Yearbook lineage.",
+      "publication_date": "2025",
+      "relevance_note": "Directly states a positive long-run US equity real return (6.6%/yr) over 125 years, and shows equities beat bonds and cash. Built on the canonical DMS long-run dataset.",
+      "source_type": "asset_manager_research_note",
+      "text": "Over the 125-year period 1900-2024, US equities delivered an annualized real (inflation-adjusted) return of 6.6%, versus 1.6% for US bonds and roughly inflation plus 0.5% for US bills, based on the Dimson, Marsh and Staunton (DMS) Investment Returns Database. Equity investors 'were compensated in the long run for higher volatility.'",
+      "title": "125 years of returns: Timeless lessons in investing",
+      "url_or_reference": "https://www.troweprice.com/en/us/insights/one-hundred-twenty-five-years-of-returns-timeless-lessons-in-investing"
+    },
+    {
+      "doc_id": "cambridge_giry2025",
+      "provenance": "Fetched and confirmed via WebFetch on 2026-06-03.",
+      "publication_date": "2025",
+      "relevance_note": "Independent, authoritative (Cambridge Judge / UBS-DMS Yearbook) confirmation that broad equities delivered strongly positive real returns over 125 years; world equity real return 5.2%/yr corroborates the US figure.",
+      "source_type": "university_research_summary",
+      "text": "Over the full 1900-2024 history, the annualised real return was 5.2% for worldwide equities. $1 invested in US equities in 1900 grew to $107,409 in nominal terms by end-2024. The data demonstrate substantial equity outperformance versus bonds and bills over the extended period.",
+      "title": "Report: stocks have far outperformed over the past 125 years (Global Investment Returns Yearbook coverage)",
+      "url_or_reference": "https://www.jbs.cam.ac.uk/2025/report-stocks-have-far-outperformed-over-the-past-125-years/"
+    },
+    {
+      "doc_id": "officialdata_sp500_1900",
+      "provenance": "Fetched and confirmed via WebFetch on 2026-06-03.",
+      "publication_date": "2026",
+      "relevance_note": "Independent S&P 500 computation (Shiller-style data) showing a positive ~6.8%/yr real total return over ~126 years, corroborating the DMS/Yearbook figures.",
+      "source_type": "data_aggregator",
+      "text": "From 1900 to 2026, the S&P 500 returned 9.96% per year nominally and 6.80% per year in inflation-adjusted (real) terms, with dividends reinvested, using the Consumer Price Index to adjust for inflation.",
+      "title": "S&P 500 Returns since 1900 (inflation-adjusted, dividends reinvested)",
+      "url_or_reference": "https://www.officialdata.org/us/stocks/s-p-500/1900"
+    },
+    {
+      "doc_id": "nyu_damodaran_histret",
+      "provenance": "Fetched and confirmed via WebFetch on 2026-06-03; canonical, widely cited NYU Stern dataset maintained by Aswath Damodaran.",
+      "publication_date": "2026",
+      "relevance_note": "Primary academic dataset confirming strongly positive long-run nominal US equity total returns (~9.7%/yr); after typical ~3% long-run inflation this implies clearly positive real returns, consistent with the ~6-7% real figures.",
+      "source_type": "academic_dataset",
+      "text": "Over 1928-2025 (97 years), $100 invested in the S&P 500 (with dividends) grew to ~$1,157,599, implying a geometric (compounded) average nominal total return of ~9.7%/yr. Stocks had positive returns in the large majority of years and compounded far ahead of T-bonds (~4.9%) and T-bills (~3.3%).",
+      "title": "Historical Returns on Stocks, Bonds and Bills: 1928-Current (NYU Stern / Damodaran)",
+      "url_or_reference": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    },
+    {
+      "doc_id": "siegel_stocks_long_run",
+      "provenance": "Fetched and confirmed via WebFetch on 2026-06-03; summarizes Siegel's widely cited book.",
+      "publication_date": "2014",
+      "relevance_note": "Extends the positive-real-return record back to 1802 (~200 years) and explicitly states multi-decade horizons have consistently been positive in real terms, directly supporting the question's multi-decade framing.",
+      "source_type": "book_reference",
+      "text": "Siegel argues that US stocks have returned an average of 6.5% to 7% per year after inflation over the last ~200 years (since 1802), and that over holding periods of 20 years or longer stocks have consistently produced positive real returns.",
+      "title": "Stocks for the Long Run (Jeremy Siegel) - long-run real return record",
+      "url_or_reference": "https://en.wikipedia.org/wiki/Stocks_for_the_Long_Run"
+    }
+  ],
+  "evidence_scope": "closed_packet",
+  "expected_correct_answer_summary": "YES -- US equities have delivered clearly positive long-run real total returns of roughly 6-7% per year over multi-decade/century horizons (US ~6.6% real 1900-2024 per DMS; ~6.8% real S&P 500 since 1900; ~9.7% nominal geometric 1928-2025; ~6.5-7% real since 1802 per Siegel), far exceeding bonds and cash.",
+  "fixed_stress_answers": [
+    {
+      "answer_id": "ans_correct",
+      "answer_type": "correct_grounded",
+      "note": "Correctly states YES and grounds the ~6-7% real return in all five packet sources.",
+      "oracle_validity": "valid",
+      "text": "Yes. The US stock market has clearly delivered positive average real (inflation-adjusted) total returns over multi-decade horizons. The canonical long-run record from Dimson, Marsh and Staunton (reported via the UBS Global Investment Returns Yearbook and summarized by T. Rowe Price [trp_125yrs] and Cambridge Judge Business School [cambridge_giry2025]) shows US equities returning about 6.6% per year in real terms over 1900-2024 -- far ahead of US bonds (~1.6% real) and cash bills (~inflation + 0.5%); world equities returned 5.2% real over the same span. An independent S&P 500 calculation gives ~6.80%/yr real (9.96% nominal) since 1900 [officialdata_sp500_1900], and the NYU Stern/Damodaran dataset shows a ~9.7%/yr geometric nominal total return over 1928-2025 [nyu_damodaran_histret], which after long-run inflation of roughly 3% is comfortably positive in real terms. Siegel's even longer record back to 1802 puts the figure at ~6.5-7%/yr real, with consistently positive real returns over every 20-year-plus holding period [siegel_stocks_long_run]. Bottom line: the well-established ~6-7%/yr long-run real total return holds firmly."
+    },
+    {
+      "answer_id": "ans_wrong",
+      "answer_type": "wrong_confident",
+      "note": "Confidently states the OPPOSITE conclusion; misreads the 5.2% (which is already real, not nominal), misuses the recent 3.5% figure, and falsely characterizes Siegel. Contradicts the explicit 6.6%/6.8% real figures in the packet.",
+      "oracle_validity": "invalid",
+      "text": "No. When you strip out inflation, the long-run record shows that US equities have essentially failed to deliver positive real total returns over multi-decade horizons. The Yearbook data confirm world equities managed only 5.2% nominal, which inflation erodes to roughly zero, and the UBS 2025 report notes recent annualized real returns of just 3.5% -- a downward trend pointing toward negative real performance. The famous '9.7%' Damodaran figure is purely nominal and disappears once price increases are removed, while Siegel himself cautioned that 20-year stretches can wipe out real gains. The honest conclusion from the data is that, after inflation, broad US equities have not reliably compounded wealth over the long run."
+    },
+    {
+      "answer_id": "ans_refusal",
+      "answer_type": "over_refusal",
+      "note": "Wrongly refuses. The packet contains multiple explicit real-return figures (6.6%, 6.8%, 5.2% world) that decisively answer YES; the methodological caveats do not create genuine ambiguity about the sign of long-run real returns.",
+      "oracle_validity": "invalid",
+      "text": "Unfortunately, the provided data does not allow a firm conclusion. The sources mix nominal and real figures, span different start dates (1802, 1900, 1928), and use inconsistent methodologies (price-only vs total return, arithmetic vs geometric, US-only vs world), so they cannot be reconciled into a single reliable answer. Past performance is also not indicative of future results, and survivorship bias may inflate the US figures. Without a single consistent dataset and a defined horizon, it would be irresponsible to claim that US equities have or have not delivered positive long-run real returns. I would recommend obtaining a unified, audited dataset before drawing any conclusion."
+    }
+  ],
+  "ground_truth": {
+    "answer": "YES. Over multi-decade horizons the US stock market has delivered clearly positive average real (inflation-adjusted) total returns. The canonical Dimson-Marsh-Staunton record (via the UBS Global Investment Returns Yearbook, summarized by T. Rowe Price and Cambridge Judge) shows US equities returning ~6.6% per year in real terms over 1900-2024, far ahead of US bonds (~1.6%) and bills (~inflation+0.5%); world equities returned 5.2% real. An independent S&P 500 computation gives ~6.8%/yr real (9.96% nominal) since 1900, and the NYU Stern/Damodaran dataset shows ~9.7%/yr nominal geometric returns over 1928-2025. Siegel's longer record (since 1802) puts the long-run real return at ~6.5-7%/yr with consistently positive real returns over 20-year-plus horizons. The conventional ~6-7%/yr real figure is well supported.",
+    "supporting_docs": [
+      "trp_125yrs",
+      "cambridge_giry2025",
+      "officialdata_sp500_1900",
+      "nyu_damodaran_histret",
+      "siegel_stocks_long_run"
+    ],
+    "why_answerable": "Multiple independent, authoritative sources (DMS/UBS Yearbook, Shiller-based S&P 500 series, NYU Stern/Damodaran, Siegel) all converge on strongly positive long-run real US equity returns of roughly 6-7%/yr over century-plus horizons, leaving no genuine ambiguity. The packet supplies explicit real-return figures and the multi-decade time spans needed to answer confidently."
+  },
+  "provenance_type": "real_web_grounded",
+  "question": "Based ONLY on the provided data, has the US stock market (S&P 500 / broad US equities) delivered positive average real (inflation-adjusted) total returns over multi-decade horizons (roughly 1900-present)?",
+  "review_status": {
+    "review_notes": "Minor numeric imprecision in nyu_damodaran_histret: the cited $100 -> $1,157,598.95 over 1928-2025 (97 yrs) implies a geometric nominal return of ~10.1%/yr, slightly above the packet's stated '~9.7%/yr'. The dollar figure is verified-exact and the qualitative claim holds, so this is immaterial to the YES conclusion but the ~9.7% gloss is marginally understated. | officialdata_sp500_1900 excerpt frames the period as '1900 to 2026'; the live page (fetched 2026-06-03) now shows 126 years with $100 -> ~$16.1M nominal. The cited 9.96% nominal / 6.80% real figures match exactly; no conflict since the packet does not cite the dollar terminal value. | All five source URLs were independently fetched and confirmed live (2026-06-03); no fabricated sources, quotes, or figures detected.",
+    "reviewer": "adversarial_verifier_agent",
+    "status": "approved"
+  },
+  "source_references": [
+    {
+      "citation": "T. Rowe Price, '125 years of returns: Timeless lessons in investing' (2025), citing Dimson, Marsh & Staunton Investment Returns Database.",
+      "doc_id": "trp_125yrs",
+      "url": "https://www.troweprice.com/en/us/insights/one-hundred-twenty-five-years-of-returns-timeless-lessons-in-investing",
+      "verification_detail": "fetched_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Cambridge Judge Business School, 'Report: stocks have far outperformed over the past 125 years' (2025), summarizing the UBS Global Investment Returns Yearbook 2025.",
+      "doc_id": "cambridge_giry2025",
+      "url": "https://www.jbs.cam.ac.uk/2025/report-stocks-have-far-outperformed-over-the-past-125-years/",
+      "verification_detail": "fetched_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Official Data Foundation, 'S&P 500 Returns since 1900' (inflation-adjusted, dividends reinvested).",
+      "doc_id": "officialdata_sp500_1900",
+      "url": "https://www.officialdata.org/us/stocks/s-p-500/1900",
+      "verification_detail": "fetched_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Aswath Damodaran, NYU Stern, 'Historical Returns on Stocks, Bonds and Bills: 1928-Current'.",
+      "doc_id": "nyu_damodaran_histret",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "verification_detail": "fetched_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Jeremy J. Siegel, 'Stocks for the Long Run' (5th ed., 2014), per Wikipedia summary.",
+      "doc_id": "siegel_stocks_long_run",
+      "url": "https://en.wikipedia.org/wiki/Stocks_for_the_Long_Run",
+      "verification_detail": "fetched_confirmed",
+      "verification_status": "primary_fetched"
+    }
+  ],
+  "source_verifiability": "verifiable",
+  "task_id": "ctrl_008",
+  "version": "0.1"
+}

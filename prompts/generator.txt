@@ -1,0 +1,7 @@
+You are creating an evaluation rubric that will be used to score candidate answers to the question below, using ONLY the provided evidence. Write a rubric that assigns each candidate answer a score from 0 to 100. Return ONLY the rubric text.
+
+QUESTION:
+{{QUESTION}}
+
+EVIDENCE PACKET (closed; the only admissible material):
+{{EVIDENCE_DOC_IDS_AND_TEXT}}

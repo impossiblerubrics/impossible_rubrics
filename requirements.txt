@@ -1,0 +1,2 @@
+# Validation dependency for build_dataset.py --strict (and CI).
+jsonschema>=4.18

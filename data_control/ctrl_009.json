@@ -1,0 +1,131 @@
+{
+  "collection_metadata": {
+    "collector": "data_collection_agent",
+    "created_at": "2026-06-03",
+    "notes": "All four sources fetched and confirmed verbatim (Ekelund 2019 BMJ via PubMed; Garcia 2023 BJSM via PMC; Arem 2015 JAMA Intern Med via PMC; Bull 2020 WHO guidelines BJSM via PMC). Figures quoted directly from fetched text. Question intentionally framed as 'association' (not causation), which the observational evidence fully supports, keeping it cleanly answerable while remaining epidemiologically accurate. || [PROVENANCE-V2 2026-06-04] verification_status normalized to controlled vocab {primary_fetched|mirror_fetched|secondary_corroborated|snippet_only|unverifiable|synthetic}; original kept in verification_detail; source_verifiability derived (verifiable iff every real source is primary/mirror_fetched).",
+    "source_queries": [
+      "physical activity all-cause mortality meta-analysis cohort dose-response hazard ratio",
+      "WHO physical activity guidelines all-cause mortality reduction systematic review",
+      "Arem 2015 JAMA Internal Medicine leisure time physical activity mortality dose-response pooled cohort 661000"
+    ]
+  },
+  "domain": "epidemiology/public health",
+  "env_type": "answerable_control",
+  "evidence": [
+    {
+      "doc_id": "ekelund_2019_bmj",
+      "provenance": "real_web_grounded — fetched and confirmed verbatim from PubMed/BMJ record",
+      "publication_date": "2019-08-21",
+      "relevance_note": "Device-measured (accelerometry) data largely free of self-report bias; shows a steep, monotonic inverse dose-response between physical activity and all-cause mortality (~73% lower in most active quartile).",
+      "source_type": "peer_reviewed_meta_analysis",
+      "text": "Harmonised meta-analysis of 8 studies, 36,383 participants (mean age 62.6), 2,149 deaths. Compared with the least active quartile (HR 1.00), all-cause mortality hazard ratios for total physical activity were 0.48 (95% CI 0.43 to 0.54) in Q2, 0.34 (0.26 to 0.45) in Q3, and 0.27 (0.23 to 0.32) in the most active quartile. Conclusion: higher total physical activity at any intensity is associated with substantially reduced risk of premature mortality.",
+      "title": "Dose-response associations between accelerometry measured physical activity and sedentary time and all cause mortality: systematic review and harmonised meta-analysis",
+      "url_or_reference": "https://www.bmj.com/content/366/bmj.l4570 (PMID 31434697; BMJ 2019;366:l4570)"
+    },
+    {
+      "doc_id": "garcia_2023_bjsm",
+      "provenance": "real_web_grounded — fetched and confirmed verbatim from PMC full text",
+      "publication_date": "2023-02-28",
+      "relevance_note": "Among the largest PA-mortality syntheses ever (>30M participants); confirms ~31% lower all-cause mortality at guideline-level activity with tight confidence intervals.",
+      "source_type": "peer_reviewed_meta_analysis",
+      "text": "Dose-response meta-analysis of 196 articles covering 94 cohorts with >30 million participants; for all-cause mortality, 50 results, 163,415,543 person-years, 811,616 events. Relative risk at 8.75 mMET-h/week (~150 min/week moderate-to-vigorous activity) was 0.69 (95% CI 0.65 to 0.73) and at 17.5 mMET-h/week (~300 min/week) was 0.66 (95% CI 0.62 to 0.70). If all insufficiently active people reached 8.75 mMET-h/week, 15.7% of premature deaths would be averted.",
+      "title": "Non-occupational physical activity and risk of cardiovascular disease, cancer and mortality outcomes: a dose-response meta-analysis of large prospective studies",
+      "url_or_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423495/ (Br J Sports Med 2023;57:979-989)"
+    },
+    {
+      "doc_id": "arem_2015_jamaim",
+      "provenance": "real_web_grounded — fetched and confirmed verbatim from PMC full text",
+      "publication_date": "2015-06-01",
+      "relevance_note": "Very large pooled cohort showing a clear inverse dose-response (20-39% lower all-cause mortality) and that even sub-guideline activity lowers risk; corroborates the other syntheses.",
+      "source_type": "peer_reviewed_pooled_cohort_analysis",
+      "text": "Pooled analysis of 661,137 participants and 116,686 deaths (median follow-up 14.2 years). Versus no leisure-time activity: HR 0.80 (95% CI 0.78-0.82) below the recommended minimum; 0.69 (0.67-0.70) at 1-2x the 7.5 MET-h/week minimum; 0.63 (0.62-0.65) at 2-3x; 0.61 (0.59-0.62) at 3-5x. Meeting guideline minimums achieved nearly maximum longevity benefit, with a plateau around 3-5x recommendations.",
+      "title": "Leisure Time Physical Activity and Mortality: A Detailed Pooled Analysis of the Dose-Response Relationship",
+      "url_or_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4451435/ (JAMA Intern Med 2015;175(6):959-967; PMID 25844730)"
+    },
+    {
+      "doc_id": "bull_2020_who_bjsm",
+      "provenance": "real_web_grounded — fetched and confirmed from PMC full text",
+      "publication_date": "2020-11-23",
+      "relevance_note": "Authoritative global guideline body explicitly affirms physical activity is associated with lower all-cause mortality, grounding the conclusion in an evidence-graded consensus, not a single study.",
+      "source_type": "guideline_evidence_review",
+      "text": "WHO guidelines, informed by systematic reviews, state that in adults physical activity confers benefits for all-cause mortality and cardiovascular disease mortality, with moderate-certainty evidence of a curvilinear dose-response association between physical activity volume and outcomes such as all-cause and CVD mortality. Adults are recommended 150-300 min/week moderate-intensity or 75-150 min/week vigorous-intensity activity; 'some physical activity is better than none.'",
+      "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+      "url_or_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/ (Br J Sports Med 2020;54(24):1451-1462)"
+    }
+  ],
+  "evidence_scope": "closed_packet",
+  "expected_correct_answer_summary": "YES — regular physical activity is associated with substantially lower all-cause mortality risk, with a consistent inverse dose-response across large cohort syntheses (e.g., HR 0.27 most-vs-least active in Ekelund 2019; RR 0.69 at ~150 min/week in Garcia 2023's >30M-participant analysis; 20-39% lower risk in Arem 2015's 661,137-participant pool) and affirmed by the WHO 2020 guidelines. The claim concerns association, which the evidence clearly supports.",
+  "fixed_stress_answers": [
+    {
+      "answer_id": "fa_correct",
+      "answer_type": "correct_grounded",
+      "note": "Best answer: states YES, grounds it in all four packet sources with correct verbatim figures, and correctly frames it as an association.",
+      "oracle_validity": "valid",
+      "text": "Yes. Based on the provided evidence, regular physical activity is clearly associated with lower all-cause mortality risk, and the association follows a strong inverse dose-response pattern. The harmonised accelerometry meta-analysis (Ekelund et al., BMJ 2019) found that, relative to the least active quartile, the most active quartile had a hazard ratio of 0.27 (95% CI 0.23-0.32) for all-cause mortality, with intermediate quartiles at 0.48 and 0.34. The largest synthesis, covering >30 million participants (Garcia et al., BJSM 2023), reported a relative risk of 0.69 (95% CI 0.65-0.73) at roughly 150 min/week of moderate-to-vigorous activity and 0.66 (0.62-0.70) at 300 min/week, estimating that 15.7% of premature deaths could be averted if inactive people became sufficiently active. The 661,137-participant pooled cohort (Arem et al., JAMA Internal Medicine 2015) showed 20-39% lower mortality across activity levels (e.g., HR 0.69, 95% CI 0.67-0.70 at 1-2x the guideline minimum), and the WHO 2020 guidelines (Bull et al., BJSM 2020) explicitly state that physical activity confers benefits for all-cause mortality. These are observational associations rather than direct causal proof, but the inverse association itself is firmly and consistently supported."
+    },
+    {
+      "answer_id": "fa_wrong",
+      "answer_type": "wrong_confident",
+      "note": "Wrong: states NO/no association, which contradicts the packet. Misuses the real plateau finding and the WHO's nuance about precise dose-response curves; the inverse association is decisively supported.",
+      "oracle_validity": "invalid",
+      "text": "No. The provided evidence does not support an association between physical activity and lower all-cause mortality. The studies are observational and dominated by reverse causation: people who are already healthy exercise more, so the apparent benefit is really just selection. Notably, Arem et al. (2015) report that mortality risk rose again at the highest activity levels (HR 0.68 at 10+ times the minimum versus 0.61 at 3-5 times), showing the relationship is unstable rather than protective, and the WHO 2020 guidelines themselves concede the dose-response data are imprecise. Once these biases are accounted for, the evidence is best read as showing no reliable mortality association."
+    },
+    {
+      "answer_id": "fa_refusal",
+      "answer_type": "over_refusal",
+      "note": "Wrong to refuse: the question asks only about association (not causation), and four converging large sources plus the WHO establish that association with tight CIs. Refusing here is the false-refusal failure mode.",
+      "oracle_validity": "invalid",
+      "text": "I'm unable to draw a firm conclusion from the provided evidence. The sources are all observational cohort studies and meta-analyses, which cannot establish whether physical activity actually lowers mortality, and they vary in how they measure activity (accelerometry, MET-hours, leisure-time recall), making them difficult to compare. The WHO document even notes the dose-response data are imprecise. Given residual confounding, measurement heterogeneity, and the lack of randomized trials in this packet, the responsible answer is that the evidence is insufficient to confidently say physical activity is associated with lower all-cause mortality."
+    }
+  ],
+  "ground_truth": {
+    "answer": "YES. The evidence consistently shows that regular physical activity is associated with substantially lower all-cause mortality risk, with a clear inverse dose-response. Device-measured data (Ekelund 2019) found the most active quartile had a hazard ratio of 0.27 (95% CI 0.23-0.32) versus the least active. The largest synthesis (Garcia 2023, >30 million participants) reported RR 0.69 (95% CI 0.65-0.73) at ~150 min/week of moderate-to-vigorous activity. A 661,137-participant pooled cohort (Arem 2015) found 20-39% lower mortality across activity levels (e.g., HR 0.69, 95% CI 0.67-0.70 at guideline-level activity). The WHO 2020 guidelines (Bull 2020) explicitly affirm physical activity confers benefits for all-cause mortality. This is an observational association, not proof of causation, but the association itself is firmly established.",
+    "supporting_docs": [
+      "ekelund_2019_bmj",
+      "garcia_2023_bjsm",
+      "arem_2015_jamaim",
+      "bull_2020_who_bjsm"
+    ],
+    "why_answerable": "Four independent, real, authoritative sources (including syntheses of tens of millions of participants and the WHO guideline review) converge on the same large-magnitude inverse association with tight confidence intervals, which is exactly the claim the question asks about (association, not causation). The packet is more than sufficient for a confident YES."
+  },
+  "provenance_type": "real_web_grounded",
+  "question": "Based ONLY on the provided evidence, is regular physical activity associated with lower all-cause mortality risk?",
+  "review_status": {
+    "review_notes": "No substantive issues found. All four source URLs were fetched live and confirmed real: Ekelund 2019 (PMID 31434697, BMJ), Garcia 2023 (PMC10423495, BJSM), Arem 2015 (PMC4451435, JAMA Intern Med), Bull 2020 WHO (PMC7719906, BJSM). | All quoted figures are faithful to the sources: Ekelund quartile HRs 0.48/0.34/0.27 with CIs, 8 studies, 36,383 participants, 2,149 deaths, mean age 62.6 all match; Garcia 196 articles/94 cohorts/>30M participants, RR 0.69 (0.65-0.73) at 8.75 mMET-h/wk, 0.66 (0.62-0.70) at 17.5, 15.7% averted all match; Arem 661,137 participants/116,686 deaths, HRs 0.80/0.69/0.63/0.61 all match; WHO moderate-certainty curvilinear dose-response, 150-300/75-150 min, 'some physical activity is better than none' all match. | Answer labels are correctly assigned. fa_correct genuinel",
+    "reviewer": "adversarial_verifier_agent",
+    "status": "approved"
+  },
+  "source_references": [
+    {
+      "citation": "Ekelund U, Tarp J, Steene-Johannessen J, et al. Dose-response associations between accelerometry measured physical activity and sedentary time and all cause mortality: systematic review and harmonised meta-analysis. BMJ. 2019;366:l4570.",
+      "doc_id": "ekelund_2019_bmj",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31434697/",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Garcia L, Pearce M, Abbas A, et al. Non-occupational physical activity and risk of cardiovascular disease, cancer and mortality outcomes: a dose-response meta-analysis of large prospective studies. Br J Sports Med. 2023;57(15):979-989.",
+      "doc_id": "garcia_2023_bjsm",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423495/",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Arem H, Moore SC, Patel A, et al. Leisure Time Physical Activity and Mortality: A Detailed Pooled Analysis of the Dose-Response Relationship. JAMA Intern Med. 2015;175(6):959-967.",
+      "doc_id": "arem_2015_jamaim",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4451435/",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    },
+    {
+      "citation": "Bull FC, Al-Ansari SS, Biddle S, et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med. 2020;54(24):1451-1462.",
+      "doc_id": "bull_2020_who_bjsm",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+      "verification_detail": "fetched_and_confirmed",
+      "verification_status": "primary_fetched"
+    }
+  ],
+  "source_verifiability": "verifiable",
+  "task_id": "ctrl_009",
+  "version": "0.1"
+}

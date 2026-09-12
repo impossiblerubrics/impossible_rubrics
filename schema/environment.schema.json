@@ -1,0 +1,356 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://impossiblerubrics.benchmark/schema/environment.schema.json",
+  "title": "ImpossibleRubrics Environment",
+  "description": "A fixed task environment + oracle certificate used to stress-test dynamically generated reward rubrics. The benchmark stores environments, not rubrics.",
+  "type": "object",
+  "required": [
+    "task_id",
+    "version",
+    "domain",
+    "impossibility_type",
+    "question",
+    "evidence_scope",
+    "provenance_type",
+    "source_verifiability",
+    "evidence",
+    "oracle_certificate",
+    "known_failure_modes",
+    "fixed_stress_answers",
+    "expected_honest_answer_summary",
+    "collection_metadata",
+    "review_status"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "impossibility_type": {
+      "type": "string",
+      "enum": [
+        "evidence_insufficient",
+        "missing_support_citation",
+        "counterevidence_trap",
+        "false_premise",
+        "exhaustiveness_impossible",
+        "objective_conflict"
+      ]
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_scope": {
+      "type": "string",
+      "enum": [
+        "closed_packet",
+        "open_retrieval_allowed"
+      ]
+    },
+    "provenance_type": {
+      "type": "string",
+      "enum": [
+        "real_web_grounded",
+        "synthetic_control",
+        "hybrid"
+      ]
+    },
+    "source_verifiability": {
+      "type": "string",
+      "enum": [
+        "verifiable",
+        "partially_verifiable",
+        "non_verifiable_synthetic"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "doc_id",
+          "title",
+          "source_type",
+          "url_or_reference",
+          "publication_date",
+          "text",
+          "relevance_note"
+        ],
+        "properties": {
+          "doc_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "source_type": {
+            "type": "string",
+            "description": "Free-form source type. Recommended high-level values: paper, abstract, report, guideline, documentation, news, regulatory, other; more specific descriptive values (e.g. 'randomized_controlled_trial', 'government_report', 'systematic_review') are permitted."
+          },
+          "url_or_reference": {
+            "type": "string"
+          },
+          "publication_date": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "relevance_note": {
+            "type": "string"
+          },
+          "provenance": {
+            "type": "string",
+            "description": "Free-form per-item provenance/verification note (how this source was obtained and confirmed). May be a high-level tag (real_web_grounded / synthetic_control) or a detailed verification note."
+          }
+        }
+      }
+    },
+    "source_references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "doc_id"
+        ],
+        "properties": {
+          "doc_id": {
+            "type": "string"
+          },
+          "citation": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "verification_status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "oracle_certificate": {
+      "type": "object",
+      "required": [
+        "impossibility_claim",
+        "supported_claims",
+        "unsupported_claims",
+        "contradicted_or_weakening_evidence",
+        "required_honest_behavior",
+        "reward_hacking_behaviors"
+      ],
+      "properties": {
+        "impossibility_claim": {
+          "type": "string"
+        },
+        "supported_claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "claim",
+              "supporting_docs"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string"
+              },
+              "supporting_docs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "unsupported_claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "claim",
+              "reason"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "contradicted_or_weakening_evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "claim",
+              "counter_docs",
+              "reason"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string"
+              },
+              "counter_docs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required_honest_behavior": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reward_hacking_behaviors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "known_failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "Failure-mode label. Recommended: overclaiming, citation_stuffing, unsupported_citation, missing_counterevidence, false_premise_acceptance, scope_overclaiming, verbosity_bias, style_bias, spurious_specificity, missing_uncertainty; additional descriptive labels (e.g. 'source_misattribution', 'sign_error') are permitted."
+      }
+    },
+    "fixed_stress_answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "answer_id",
+          "answer_type",
+          "text",
+          "oracle_validity",
+          "violated_certificate_items"
+        ],
+        "properties": {
+          "answer_id": {
+            "type": "string"
+          },
+          "answer_type": {
+            "type": "string",
+            "description": "Stress-answer category. Recommended: honest, overclaiming, citation_stuffing, unsupported_citation, missing_counterevidence, false_premise_acceptance, scope_overclaiming, verbose_shallow, spurious_specificity; slash-separated combinations (e.g. 'citation_stuffing / unsupported_citation') are permitted."
+          },
+          "text": {
+            "type": "string"
+          },
+          "oracle_validity": {
+            "type": "string",
+            "enum": [
+              "valid",
+              "invalid",
+              "partially_valid"
+            ]
+          },
+          "violated_certificate_items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "expected_honest_answer_summary": {
+      "type": "string"
+    },
+    "collection_metadata": {
+      "type": "object",
+      "properties": {
+        "collector": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "source_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "review_status": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected"
+          ]
+        },
+        "reviewer": {
+          "type": "string"
+        },
+        "review_notes": {
+          "type": "string"
+        }
+      }
+    },
+    "evaluation_spec": {
+      "type": "object",
+      "description": "Machine-evaluable grading spec derived from the oracle certificate via the P0 audit (blind audit -> reconcile -> harden). Optional.",
+      "properties": {
+        "must_state": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "must_not_state": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "may_state": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "acceptable_refusal_forms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "audit": {
+          "type": "object",
+          "description": "Audit provenance: independent_verdict, recommendation, template_cue_risk, certificate_consistent."
+        }
+      }
+    }
+  }
+}

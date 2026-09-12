@@ -5,6 +5,25 @@ Source code, original project documentation, and benchmark data, annotations,
 synthetic material and experimental results owned by the maintainers are
 licensed under the Apache License, Version 2.0.
 
-This grant covers only rights held by the maintainers. Third-party evidence
-and other incorporated third-party material retain their original rights and
-applicable terms and are not relicensed by this project. See docs/DATA_LICENSE.md.
+Project-owned material includes original benchmark questions, oracle certificates,
+fixed answers, and selection and scoring records in the optional reproduction
+pack. The full license text is in LICENSE at the package root.
+
+This grant covers only rights held by the maintainers. Third-party evidence and
+other incorporated third-party material retain their original rights and
+applicable terms and are not relicensed by this project. This exclusion applies
+wherever third-party material appears, including within a question, answer,
+annotation or synthetic example. No copyright is claimed over facts or other
+material outside copyright protection.
+
+Where redistribution is permitted, retain required upstream attribution,
+licenses and notices. The project's license does not replace them. Public
+availability, a source URL, successful fetching or a synthetic provenance label
+does not by itself establish a redistribution basis for incorporated material.
+
+Source-rights review remains pending for the 925 evidence passages not marked
+synthetic in the frozen benchmark. This records an unfinished review, not a
+determination that every passage requires separate permission or that none may
+be redistributed. The source inventory preserves this status separately from
+the Apache-2.0 grant on project-owned material:
+https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.2/source_manifest.json

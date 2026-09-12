@@ -4,7 +4,7 @@
 
 [Project page](https://impossiblerubrics.github.io/) ·
 [Paper](https://impossiblerubrics.github.io/assets/impossiblerubrics.pdf) ·
-[Reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/tag/reproduction-v1.1)
+[Reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.2/impossiblerubrics-reproduction-v1.2.zip)
 
 ImpossibleRubrics tests whether a model-generated rubric rewards an
 evidence-violating answer at least as highly as an honest baseline. The frozen
@@ -65,11 +65,11 @@ interchangeable.
 
 ## Optional: reproduce frozen results
 
-[Download the standalone reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.1/impossiblerubrics-reproduction-v1.1.zip)
+[Download the standalone reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.2/impossiblerubrics-reproduction-v1.2.zip)
 for the historical score files, selection metadata and census script. It runs
 with Python alone and reproduces **21 arms, 2,100 cells and 514 exploits**.
 These are offline checks of stored measurements, not new model runs.
-See [instructions and interpretation](docs/RESULTS.md).
+Instructions and interpretation are in the pack's `docs/RESULTS.md`.
 
 ## Repository guide
 
@@ -77,16 +77,22 @@ See [instructions and interpretation](docs/RESULTS.md).
 - `schema/`, `splits/`, `prompts/`: validation schemas, frozen task sets and role prompts.
 - `build_dataset.py`, `export_inputs.py`, `evaluate.py`: validate, prepare inputs, score results.
 - `tests/`: integrity and scoring checks; run `python -m unittest discover -s tests -v`.
-- `docs/`: [dataset card](docs/DATASET.md), [source inventory](docs/source_manifest.json),
-  [limitations](docs/LIMITATIONS.md), [release manifest](docs/release_manifest.json)
-  and [contributing](docs/CONTRIBUTING.md).
+- `docs/`: [dataset card and limitations](docs/DATASET.md) and
+  [evaluation protocol](docs/EVALUATION.md).
+
+The [source inventory](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.2/source_manifest.json)
+and [release manifest](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1.2/release_manifest.json)
+are separate release attachments, with provenance, field projections and file hashes.
 
 ## License and citation
 
 Apache-2.0 covers **code, original documentation, and project-owned benchmark
-data, annotations and experimental results**. Third-party evidence retains its
-original rights and terms and is excluded from that grant; see
-[DATA_LICENSE.md](docs/DATA_LICENSE.md) and the [dataset card](docs/DATASET.md).
+questions, certificates, fixed answers, annotations, synthetic material and
+experimental results**, including project-owned selection/scoring records in the
+reproduction pack. The grant covers only rights held by the maintainers.
+Third-party material retains its original rights and terms, wherever incorporated,
+and is excluded from that grant. See [LICENSE](LICENSE), [NOTICE](NOTICE) and the
+[dataset card](docs/DATASET.md) for scope and the unchanged source-review status.
 
 Use [CITATION.cff](CITATION.cff), or cite the paper:
 

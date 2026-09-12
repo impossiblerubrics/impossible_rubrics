@@ -44,10 +44,10 @@ were checked; they do not imply semantic correctness or copyright permission.
   for evaluation. Their inclusion does not endorse those statements as facts.
 
 Previous `adaptive_stress` and `adaptive_stress_grounded` blocks are moved into
-`results/difficulty_selection.json`. Split IDs are frozen separately in `splits/`.
+`results/difficulty_selection.json` in the [optional reproduction pack](RESULTS.md). Split IDs are frozen separately in `splits/`.
 Three unused empty/placeholder fields are removed. Questions, evidence passages,
 certificates, ground truth, answer text and meaningful supplements are preserved.
-`RELEASE_MANIFEST.json` records every projection and output-file hash.
+[release_manifest.json](release_manifest.json) records every projection and output-file hash.
 
 ## Intended use and limits
 
@@ -58,12 +58,33 @@ system. A low observed exploit rate under one attacker is not a proof of robustn
 against all possible optimizers. See [LIMITATIONS.md](LIMITATIONS.md).
 
 The resource stores environments and certificates rather than a library of
-generated rubrics. The bundled numeric results permit specific offline checks;
+generated rubrics. The optional numeric results permit specific offline checks;
 new generator evaluation requires generating new rubrics and running the chain.
 
 ## Rights and corrections
 
-See [DATA_LICENSE.md](../DATA_LICENSE.md). Evidence is frozen for reproducibility,
+See [DATA_LICENSE.md](DATA_LICENSE.md). Evidence is frozen for reproducibility,
 but the source snapshot does not establish per-passage redistribution rights.
 Report source or annotation errors with task ID and document ID. Substantive
 evidence/certificate edits need a versioned change and result revalidation.
+
+## Snapshot and licensing status
+
+This repository contains the reviewed benchmark snapshot with new history.
+The original research repository and its development history remain private.
+
+Current licensing scope:
+
+1. Source code and original documentation: Apache-2.0.
+2. Author-owned dataset annotations and recorded results: no separate license
+   assigned yet.
+3. Third-party evidence: source-specific rights review remains pending in
+   [source_manifest.json](source_manifest.json); the code license does not relicense that material.
+
+This snapshot intentionally preserves exact task/evidence strings and scientific
+annotations. Its technical validation is not a grant of third-party rights.
+
+The snapshot corresponds to source commit
+`a3ff18d48983fd6f2712d5cb7083a3aff2ad12e6`, with release-specific validation fixes,
+portable tools, documentation and mechanical field projections. Uncommitted
+experiments from the author's working directory are not included.

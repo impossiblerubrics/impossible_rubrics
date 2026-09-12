@@ -8,3 +8,17 @@ __pycache__/
 *-inputs.jsonl
 my_results.jsonl
 summary.json
+
+# Rebuild locally from the per-environment source records.
+/environments.json
+/environments.jsonl
+/environments_all.json
+/environments_all.jsonl
+/controls.json
+/controls.jsonl
+/reports/
+
+# Optional reproduction pack / downloads.
+/analysis/
+/results/
+*.zip

@@ -161,15 +161,52 @@ class DatasetBuildTests(unittest.TestCase):
         self.assertEqual(validator.derive_provenance(record),
                          ("hybrid", "partially_verifiable"))
 
-    def test_valid_full_dataset_preserves_export_bytes(self):
-        for directory in ("data", "data_control"):
+    def test_full_dataset_clean_build_preserves_records_and_is_deterministic(self):
+        inputs = {}
+        for directory, kind, expected_count in (
+            ("data", "impossible", 169),
+            ("data_control", "answerable_control", 48),
+        ):
             shutil.rmtree(self.root / directory)
             shutil.copytree(REPO / directory, self.root / directory)
+            records = [self.read_record(path) for path in (self.root / directory).glob("*.json")]
+            self.assertEqual(len(records), expected_count)
+            inputs[kind] = {record["task_id"]: record for record in records}
+            self.assertEqual(len(inputs[kind]), expected_count)
+
+        expected = {
+            "environments": inputs["impossible"],
+            "controls": inputs["answerable_control"],
+            "environments_all": {
+                task_id: dict(record, env_type=kind)
+                for kind, records in inputs.items()
+                for task_id, record in records.items()
+            },
+        }
+        self.assertEqual(len(expected["environments_all"]), 217)
+        result = self.run_build()
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        first_build = {}
+        for name in ARTIFACTS:
+            with self.subTest(artifact=name):
+                path = self.root / name
+                first_build[name] = path.read_bytes()
+                rows = (self.read_record(path) if path.suffix == ".json" else
+                        [json.loads(line) for line in path.read_text().splitlines()])
+                self.assertEqual(len(rows), len(expected[path.stem]))
+                self.assertEqual({row["task_id"]: row for row in rows}, expected[path.stem])
+                # Research checkouts may retain golden exports; release snapshots
+                # contain only source records and must pass without those files.
+                reference = REPO / name
+                if reference.is_file():
+                    self.assertEqual(first_build[name], reference.read_bytes())
+                path.unlink()
+
         result = self.run_build()
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         for name in ARTIFACTS:
-            with self.subTest(artifact=name):
-                self.assertEqual((self.root / name).read_bytes(), (REPO / name).read_bytes())
+            with self.subTest(rebuilt_artifact=name):
+                self.assertEqual((self.root / name).read_bytes(), first_build[name])
 
 
 if __name__ == "__main__":

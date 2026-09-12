@@ -10,7 +10,7 @@ owned by others.
 The frozen dataset contains 937 evidence passages, including 12 marked synthetic
 by the provenance rules. The source snapshot has no structured license fields
 for these passages. Their URLs, citations, fetch-verification status, word counts
-and text hashes are listed in `docs/source_manifest.json`; redistribution status
+and text hashes are listed in [the source inventory](https://github.com/impossiblerubrics/impossible_rubrics/blob/main/docs/source_manifest.json); redistribution status
 remains explicitly pending.
 
 A public URL, a successful fetch, an arXiv/PMC host or a short excerpt does not

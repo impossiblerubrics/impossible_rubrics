@@ -1,6 +1,26 @@
 # Frozen results and reproducibility
 
-`results/census/` contains 18 numeric result files used by the explicit roster in
+## Download and run
+
+[Download the reproduction pack](https://github.com/impossiblerubrics/impossible_rubrics/releases/download/reproduction-v1/impossiblerubrics-reproduction-v1.zip)
+from the repository's release assets. It is separate from the core benchmark
+checkout and includes its own split manifests, scorer and census script.
+Python 3.10+ is sufficient; no dependency installation or model API is needed.
+
+```sh
+unzip impossiblerubrics-reproduction-v1.zip
+cd impossiblerubrics-reproduction
+python analysis/census.py
+```
+
+The archive also retains prior difficulty-selection metadata in
+`results/difficulty_selection.json`. Its file hashes and archive SHA-256 are
+recorded in the core repository's
+[release manifest](https://github.com/impossiblerubrics/impossible_rubrics/blob/main/docs/release_manifest.json).
+
+## Frozen measurements
+
+The optional pack contains 18 numeric result files under `results/census/`, used by the explicit roster in
 `analysis/census.py`. Only `task_id`, model/generator labels, `baseline`, `adv` and
 `violates` are retained. Free-form strategies, generated rubric text and raw agent
 responses are not needed for this computation and are not included.
